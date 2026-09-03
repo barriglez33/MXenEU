@@ -578,7 +578,8 @@
       "United States"
     ],
     "discovery_sources": [
-      "GDELT"
+      "GDELT",
+      "Google News"
     ],
     "collected_iso": "2026-09-03T03:29:51.868467+00:00"
   },
