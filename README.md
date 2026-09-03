@@ -274,3 +274,28 @@ Esta versión NO requiere:
 - pagar un servidor
 
 GitHub Actions ejecuta el proyecto por ti.
+
+## Duplicados: conservar la versión más completa
+
+El monitor compara noticias después de traducirlas al español, por lo que puede detectar repeticiones incluso cuando dos medios publicaron originalmente en idiomas distintos.
+
+Para considerar dos notas como la misma noticia, revisa que compartan un jugador, que hayan sido publicadas cerca en el tiempo y que exista suficiente similitud entre titulares y/o el inicio de los artículos.
+
+Cuando encuentra varias versiones de la misma noticia, conserva solamente la más completa. El criterio favorece principalmente el cuerpo más extenso, y también considera autor, fuente, fecha, idioma identificado y una traducción completa.
+
+La nota ganadora puede conservar las URLs descartadas en `alternate_sources` para referencia, pero solo genera una entrada en el RSS.
+
+Los parámetros se pueden ajustar en `config.json` bajo `deduplication`.
+
+
+## Fuente visible en cada título
+
+Los títulos del RSS y del dashboard incluyen ahora la fuente al principio.
+
+Ejemplos:
+
+- `[ESPN] Santiago Giménez recibe una actualización antes del partido`
+- `[Marca] Obed Vargas es presentado por el Atlético de Madrid`
+- `[BBC Sport] Edson Álvarez habla sobre su futuro`
+
+Esto se aplica al RSS general y a todos los feeds individuales por jugador. La fuente también se conserva en su campo RSS `<source>` y en `data/articles.json`.
