@@ -1,5 +1,31 @@
 [
   {
+    "id": "6e067c6611ef03b06a57",
+    "title": "Famalicão contrata Pato Salas - Golo FM | A Primeira Rádio Desporto",
+    "source": "Golo FM",
+    "author": "Clever; José Carlos Leal",
+    "url": "https://golo.fm/destaque/famalicao-contrata-pato-salas/",
+    "published_iso": "2026-09-03T10:45:00+00:00",
+    "published_rfc2822": "Thu, 03 Sep 2026 10:45:00 +0000",
+    "published_display": "2026-09-03 10:45 UTC",
+    "body": "O jogador Patricio Salas assinou com o FC Famalicão até ao final da presente temporada.\nO clube famalicense contratou o jogador ao Club América, do México.\nPato Salas, com formação no Pachuca, estreou-se no futebol profissional pelo Club América, que representava desde 2023 e pelo qual conquistou duas Ligas Apertura e uma Clausura no México.\n“Estou muito entusiasmado e com muita vontade de iniciar este novo desafio. Vir para a Europa é o maior passo na minha ainda curta carreira e fazê-lo ao serviço de um clube tão ambicioso é um enorme motivo de orgulho e, simultaneamente, de muita responsabilidade”, afirmou o jogador.\nSalas passou ainda meio ano a treinar no Chelsea, em 2017, período durante o qual jogou na academia local de Buckswood.",
+    "tracked_players": [
+      {
+        "name": "Patricio Salas",
+        "club": "Famalicao",
+        "group": "Portugal y Países Bajos"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "Portugal / Português"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-03T11:39:49.097365+00:00"
+  },
+  {
     "id": "a476c3dff822949d3f30",
     "title": "El mexicano Salas jugará en el Famalicão portugués cedido por el Club América",
     "source": "Infobae",
@@ -29,6 +55,37 @@
       "Google News"
     ],
     "collected_iso": "2026-09-03T10:41:03.062100+00:00"
+  },
+  {
+    "id": "eec557dc56dd3674d9a0",
+    "title": "El mexicano Salas jugará en el Famalicão portugués cedido por el Club América",
+    "source": "Yahoo",
+    "author": "Agencia EFE",
+    "url": "https://es-us.noticias.yahoo.com/deportes/mexicano-salas-jugar%C3%A1-famalic%C3%A3o-portugu%C3%A9s-101825701.html",
+    "published_iso": "2026-09-03T10:18:25+00:00",
+    "published_rfc2822": "Thu, 03 Sep 2026 10:18:25 +0000",
+    "published_display": "2026-09-03 10:18 UTC",
+    "body": "Lisboa, 3 sep (EFE).- El delantero mexicano Patricio Salas vivirá su primera experiencia en Europa como profesional al servicio del Famalicão, de la Liga Portugal, al que llega cedido por el Club América de su país, según informó este jueves el club portugués.\nEl Famalicão informó en un comunicado publicado en su sitio web de que el acuerdo con el América se extenderá hasta el final de la temporada actual.\n\"Estoy muy entusiasmado y con muchas ganas de comenzar este nuevo reto. Venir a Europa es el paso más importante en mi aún corta carrera y hacerlo al servicio de un club tan ambicioso es un enorme motivo de orgullo y, al mismo tiempo, de gran responsabilidad\", declaró Salas a los medios de su nuevo club.\n'Pato' Salas, de 22 años, pasó por las categorías inferiores de equipos como el Pachuca y el Club América, y fue en el conjunto de Ciudad de México donde dio sus primeros pasos como profesional.\nEl delantero yucateco se convirtió la temporada pasada en un habitual de los azulcremas bajo el mando del técnico brasileño André Jardine, pero en la actual perdió protagonismo con la llegada del uruguayo Guillermo Almada.\nSu nuevo club, el Famalicão, quedó en quinto lugar en la última edición de la Liga Portugal y es conocido por apostar por jugadores emergentes.\nHan pasado por el cuadro norteño nombres como el uruguayo del Manchester United Manuel Ugarte, el portugués Pedro Gonçalves, del Fiorentina italiano, o el español Toni Martínez, del Alavés.\n'Pato' Salas es el segundo atacante mexicano en llegar esta temporada al fútbol de Portugal, donde ya se encuentra Santiago Giménez, en el Oporto, cedido por el AC Milan. EFE\n(c) Agencia EFE",
+    "tracked_players": [
+      {
+        "name": "Santiago Giménez",
+        "club": "Porto",
+        "group": "Portugal y Países Bajos"
+      },
+      {
+        "name": "Patricio Salas",
+        "club": "Famalicao",
+        "group": "Portugal y Países Bajos"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "España / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-03T11:39:13.164351+00:00"
   },
   {
     "id": "27cffa3258ca846206f9",
@@ -606,7 +663,8 @@
       "Mexico"
     ],
     "discovery_sources": [
-      "GDELT"
+      "GDELT",
+      "Google News"
     ],
     "collected_iso": "2026-09-03T03:29:52.977875+00:00"
   },
@@ -2293,6 +2351,32 @@
     "collected_iso": "2026-09-03T03:29:56.142191+00:00"
   },
   {
+    "id": "b18ea9e58e8c0b251a66",
+    "title": "\"Fue un sueño\", Santiago Giménez se despide de su querido Milan",
+    "source": "FOX Deportes",
+    "author": "FOX Deportes",
+    "url": "https://www.foxdeportes.com/mexicanos-en-europa/nota/fue-un-sueno-santiago-gimenez-se-despide-de-su-querido-milan",
+    "published_iso": "2026-09-02T01:35:34+00:00",
+    "published_rfc2822": "Wed, 02 Sep 2026 01:35:34 +0000",
+    "published_display": "2026-09-02 01:35 UTC",
+    "body": "Enrique Gómez\n\"Fue un sueño\", Santiago Giménez se despide de su querido Milan\nDespués de 37 partidos y varias lesiones, el mexicano le dijo adiós al 'Diavolo'\nNo fue el mejor Milan y tampoco fue el mejor Santiago Giménez, pero sí que fue un sueño cumplido.\nLa relación entre el delantero mexicano y el club de sus sueños llegó a su fin y si todo sale bien, la separación será definitiva a mediados de 2027, pues, aunque la transferencia es en calidad de préstamo, hay una cláusula de compra obligatoria (de 18 millones de euros) si el mexicano cumple los objetivos de rendimiento individual. Es decir, el adiós irrevocable de San Siro será una señal de éxito.\nAsí, el futbolista de 25 años se despidió de la afición ‘rossonera’ a través de redes sociales y desde ahora se enfocará al 100% con el Porto, equipo grande de Portugal que jugará la Champions League este año.\n“Fue un sueño cumplido jugar para el Milan y el haber compartido este tiempo con ustedes. Los llevaré siempre en el corazón. Gracias por todo, milanistas”, fue el mensaje de Giménez para la afición de ‘il Diavolo’, la cual siempre esperó mucho más del jugador que llegó en el invierno del 2025.\nLesionado nuevamente del tobillo y con una sequía de 15 meses sin gol en Serie A pese a que fue titular en 10 partidos de liga durante el curso pasado, ‘Santi’ puso fin a su etapa en el Milan, la camiseta que siempre le pedía a su padre cuando era niño. En una campaña y media, le alcanzó para jugar 37 partidos, firmar siete tantos y poner seis asistencias. Un sueño cumplido, aunque no con el éxito deseado.\n‘Santi’ estuvo muy lejos de su versión en el Feyenoord, mientras que el Milan no es ni la sombra de sus días de gloria.\nLO MÁS VISTO\nADVERTISEMENT",
+    "tracked_players": [
+      {
+        "name": "Santiago Giménez",
+        "club": "Porto",
+        "group": "Portugal y Países Bajos"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-03T11:37:52.124520+00:00"
+  },
+  {
     "id": "e34d4f4a05fbeaee0f9f",
     "title": "El Wolverhampton de Raúl Jiménez cae goleado por el West Ham de Edson Álvarez",
     "source": "Infobae",
@@ -2837,6 +2921,32 @@
       "GDELT"
     ],
     "collected_iso": "2026-09-03T03:35:50.405709+00:00"
+  },
+  {
+    "id": "29870f1201946136dc05",
+    "title": "Johan Vásquez tendrá nuevo compañero en el Genoa: llega el hijo de Robinho",
+    "source": "Excélsior",
+    "author": "Édgar Berrios",
+    "url": "https://www.excelsior.com.mx/deportes/johan-vasquez-tendra-nuevo-companero-genoa-llega-hijo-robinho",
+    "published_iso": "2026-09-01T21:20:49+00:00",
+    "published_rfc2822": "Tue, 01 Sep 2026 21:20:49 +0000",
+    "published_display": "2026-09-01 21:20 UTC",
+    "body": "Johan Vásquez tendrá un nuevo compañero en el Genoa de la Serie A, luego de que el conjunto italiano cerrara el fichaje de Robinho Jr., hijo del exfutbolista brasileño Robinho, durante el último día del mercado de transferencias en Italia.\nEl Genoa alcanzó un acuerdo con el Santos FC para incorporar al atacante brasileño de 18 años en calidad de préstamo por la temporada 2026-27, con una opción de compra de 8 millones de euros al finalizar la campaña.\nLa llegada de Robinho Jr. representa una apuesta a futuro para el conjunto italiano, que buscará desarrollar el potencial del joven futbolista y ayudarlo a consolidarse en el futbol europeo.\nRobinho Jr. da el salto a Europa\nEl atacante se desempeña como extremo derecho y se formó en las categorías inferiores del Santos, club con el que debutó con el primer equipo durante la temporada pasada.\nCon apenas 18 años, Robinho Jr. disputó 15 partidos y registró una asistencia en su primera experiencia con el primer equipo del conjunto brasileño.\nAhora, el futbolista afrontará uno de los mayores retos de su carrera al cruzar el Atlántico para jugar en la Serie A de Italia, donde buscará demostrar que puede desarrollar el talento que heredó de su padre, quien tuvo una destacada trayectoria internacional y militó, entre otros clubes, en el Real Madrid.\nGenoa busca alejarse de la zona de descenso\nCon la incorporación de Robinho Jr., el Genoa cerró su plantilla para la temporada 2026-27. El club italiano espera que sus nuevos refuerzos le permitan mejorar su rendimiento y alejarse de los puestos comprometidos de la clasificación.\nEl inicio de temporada, sin embargo, no ha sido el esperado. El Genoa perdió sus dos primeros partidos de la Serie A y actualmente ocupa el lugar 16 de la tabla, apenas un puesto por encima de la zona de descenso.\nEn este escenario, Robinho Jr. llega como una apuesta de futuro, mientras que Johan Vásquez tendrá un nuevo compañero brasileño en el Genoa para afrontar el resto de la temporada en el futbol italiano.",
+    "tracked_players": [
+      {
+        "name": "Johan Vásquez",
+        "club": "Genoa",
+        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-03T11:43:39.503168+00:00"
   },
   {
     "id": "699408aac94d2a07beab",
@@ -3798,6 +3908,32 @@
       "GDELT"
     ],
     "collected_iso": "2026-09-03T03:40:42.393077+00:00"
+  },
+  {
+    "id": "4d55c20b9a408f5d8746",
+    "title": "Oficial: Santiago Giménez, cedido al Porto con opción de compra",
+    "source": "OneFootball",
+    "author": "",
+    "url": "https://onefootball.com/es/noticias/oficial-santiago-gimenez-cedido-al-porto-con-opcion-de-compra-43377943",
+    "published_iso": "2026-08-31T20:28:21+00:00",
+    "published_rfc2822": "Mon, 31 Aug 2026 20:28:21 +0000",
+    "published_display": "2026-08-31 20:28 UTC",
+    "body": "OffsAIde\n·31 de agosto de 2026\nSantiago Giménez se ha unido al FC Porto cedido por el AC Milan, según informó el club en un comunicado.\nEl acuerdo es una cesión gratuita con una opción de compra por 18 millones de euros más hasta 2 millones en bonificaciones, que podría convertirse en una obligación si se cumplen ciertos objetivos. Si se activa la cláusula, el Milan conservará el 10% de una futura venta.\nEl Porto asumirá la responsabilidad del mecanismo de solidaridad adeudado a terceros, y en el traspaso no participaron intermediarios.\nLas conversaciones fueron complejas, con avances y retrocesos, pero el acuerdo se cerró durante el fin de semana, favorecido por el deseo del jugador de representar al Porto.\nGiménez, de 25 años, llevará el dorsal 29.\n«Se utilizó inteligencia artificial para ayudar a crear este artículo a partir de la información del medio original citado».\nEste artículo fue traducido al español por inteligencia artificial. Puedes leer la versión original en 🏴 en este enlace.",
+    "tracked_players": [
+      {
+        "name": "Santiago Giménez",
+        "club": "Porto",
+        "group": "Portugal y Países Bajos"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "España / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-03T11:37:53.449728+00:00"
   },
   {
     "id": "39bd9f1223af6494b585",
