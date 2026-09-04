@@ -497,7 +497,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "España / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -562,7 +563,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "España / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -735,16 +737,6 @@
         "name": "Santiago Giménez",
         "club": "Porto",
         "group": "Portugal y Países Bajos"
-      },
-      {
-        "name": "Álvaro Fidalgo",
-        "club": "Real Betis",
-        "group": "España"
-      },
-      {
-        "name": "Johan Vásquez",
-        "club": "Genoa",
-        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
       }
     ],
     "source_languages": [],
