@@ -1166,7 +1166,8 @@
     "source_countries": [
       "España / Español",
       "United Kingdom / English",
-      "United States / English"
+      "United States / English",
+      "México / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -3054,9 +3055,16 @@
         "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/famalicao/detalhe/famalicao-contrata-avancado-mexicano-patricio-salas-ate-final-da-epoca?ref=Autores_Ultimas",
         "published_iso": "2026-09-02T09:53:12+00:00",
         "body_characters": 1474
+      },
+      {
+        "title": "Famalicão contrata avançado mexicano Patricio Salas até final da época",
+        "source": "record.pt",
+        "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/famalicao/detalhe/famalicao-contrata-avancado-mexicano-patricio-salas-ate-final-da-epoca",
+        "published_iso": "2026-09-02T09:51:28+00:00",
+        "body_characters": 1475
       }
     ],
-    "duplicate_versions_removed": 1
+    "duplicate_versions_removed": 2
   },
   {
     "id": "474644385cab8a6f7939",
