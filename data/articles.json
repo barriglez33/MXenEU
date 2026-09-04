@@ -77,7 +77,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "United Kingdom / English"
+      "United Kingdom / English",
+      "United States / English"
     ],
     "discovery_sources": [
       "Google News"
@@ -3271,9 +3272,16 @@
         "url": "https://famaradio.tv/desporto/09/02/patricio-salas-e-reforco-do-famalicao-ate-ao-final-da-epoca/?amp=",
         "published_iso": "2026-09-02T08:45:30+00:00",
         "body_characters": 109
+      },
+      {
+        "title": "FC Famalicão contrata avançado mexicano Patricio Salas até final da época",
+        "source": "Diário do Minho",
+        "url": "https://www.diariodominho.pt/index.php/noticias/desporto/2026-09-02-fc-famalicao-contrata-avancado-mexicano-patricio-salas-ate-final-da-epoca-6a9852c12f23d",
+        "published_iso": "2026-09-02T15:44:00+00:00",
+        "body_characters": 109
       }
     ],
-    "duplicate_versions_removed": 3
+    "duplicate_versions_removed": 4
   },
   {
     "id": "83f3ee49cf254200c025",
