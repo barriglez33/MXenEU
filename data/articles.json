@@ -63,12 +63,16 @@
         "group": "España"
       }
     ],
-    "source_languages": [],
+    "source_languages": [
+      "Spanish"
+    ],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "Mexico"
     ],
     "discovery_sources": [
-      "Google News"
+      "Google News",
+      "GDELT"
     ],
     "collected_iso": "2026-09-04T00:38:04.490374+00:00",
     "original_title": "¿Será titular? Obed Vargas cambia de dorsal con Atlético de Madrid",
@@ -934,7 +938,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "United States / English"
+      "United States / English",
+      "United Kingdom / English"
     ],
     "discovery_sources": [
       "Google News"
@@ -953,9 +958,16 @@
         "url": "https://www.goal.com/en-ke/player/a-hernandez/pCYoro9vix1ZdXDF6r6jx",
         "published_iso": "2026-09-03T01:32:02+00:00",
         "body_characters": 109
+      },
+      {
+        "title": "Anwar Hernandez Profile & Stats | Defender | Goal.com Australia",
+        "source": "Goal.com",
+        "url": "https://www.goal.com/en-au/player/a-hernandez/pCYoro9vix1ZdXDF6r6jx",
+        "published_iso": "2026-09-03T01:20:02+00:00",
+        "body_characters": 109
       }
     ],
-    "duplicate_versions_removed": 1
+    "duplicate_versions_removed": 2
   },
   {
     "id": "a303c07fa2b97957cee7",
@@ -3099,6 +3111,40 @@
     "translation_status": "translated"
   },
   {
+    "id": "e8dd6aaea1302989a04c",
+    "title": "Obed Vargas seguirá en el Atlético de Madrid",
+    "source": "futbolsapiens.com",
+    "author": "Gianfranco Ruggiero",
+    "url": "https://www.futbolsapiens.com/actualidad-futbol-mexicano/obed-vargas-seguira-en-el-atletico-de-madrid/",
+    "published_iso": "2026-09-02T10:15:00+00:00",
+    "published_rfc2822": "Wed, 02 Sep 2026 10:15:00 +0000",
+    "published_display": "2026-09-02 10:15 UTC",
+    "body": "Obed Vargas seguirá en el Atlético de Madrid\nTodo apunta a que finalmente Obed Vargas continurá siendo jugador del Atlético de Madrid en la actual temporada, tras cerrarse el mercado de fichajes.\nParecía un hecho la salida de Vargas del conjunto madrileño, incluso había cedido su dorsal «21» al defensor central Cristian «Cuti» Romero, y se había quedado con el «3».\nSin embargo, el director técnico del elenco «colchonero», Diego Simeone, le brindará una nueva oportunidad a Vargas.\nVargas, ha venido entrenando con el Atlético de Madrid en la localidad de Majadahonda, pendiente de una posible salida del club rojiblanco antes del cierre del mercado veraniego del 1 de septiembre.\nHasta los momentos no ha entrado en ninguna de las dos primeras convocatorias del Atlético ante el Málaga y ante el Villarreal; pero sí lo hizo contra el Sevilla en el estadio Ramón Sánchez-Pizjuán, pese a no ver acción.\n¡OBED SE QUEDA! ⚪\nAtlético de Madrid habría decidido que el mexicano Vargas siga en el club y así lo contó @IgnacioMiguelez en nuestro especial del cierre de fichajes.\n¡EN VIVO!\nhttps://t.co/CF4DpWJ8Ef\nEn nuestro TikTok #BenditaChampions | #TNTSportsEnHBOMax pic.twitter.com/AKwYGr5zLw\n— TNT Sports México (@tntsportsmex) September 1, 2026",
+    "tracked_players": [
+      {
+        "name": "Obed Vargas",
+        "club": "Atlético de Madrid",
+        "group": "España"
+      }
+    ],
+    "source_languages": [
+      "Spanish"
+    ],
+    "source_countries": [
+      "Mexico"
+    ],
+    "discovery_sources": [
+      "GDELT"
+    ],
+    "collected_iso": "2026-09-04T03:30:40.328772+00:00",
+    "original_title": "Obed Vargas seguirá en el Atlético de Madrid",
+    "original_body": "Obed Vargas seguirá en el Atlético de Madrid\nTodo apunta a que finalmente Obed Vargas continurá siendo jugador del Atlético de Madrid en la actual temporada, tras cerrarse el mercado de fichajes.\nParecía un hecho la salida de Vargas del conjunto madrileño, incluso había cedido su dorsal «21» al defensor central Cristian «Cuti» Romero, y se había quedado con el «3».\nSin embargo, el director técnico del elenco «colchonero», Diego Simeone, le brindará una nueva oportunidad a Vargas.\nVargas, ha venido entrenando con el Atlético de Madrid en la localidad de Majadahonda, pendiente de una posible salida del club rojiblanco antes del cierre del mercado veraniego del 1 de septiembre.\nHasta los momentos no ha entrado en ninguna de las dos primeras convocatorias del Atlético ante el Málaga y ante el Villarreal; pero sí lo hizo contra el Sevilla en el estadio Ramón Sánchez-Pizjuán, pese a no ver acción.\n¡OBED SE QUEDA! ⚪\nAtlético de Madrid habría decidido que el mexicano Vargas siga en el club y así lo contó @IgnacioMiguelez en nuestro especial del cierre de fichajes.\n¡EN VIVO!\nhttps://t.co/CF4DpWJ8Ef\nEn nuestro TikTok #BenditaChampions | #TNTSportsEnHBOMax pic.twitter.com/AKwYGr5zLw\n— TNT Sports México (@tntsportsmex) September 1, 2026",
+    "rss_title": "Obed Vargas seguirá en el Atlético de Madrid",
+    "rss_body": "Obed Vargas seguirá en el Atlético de Madrid\n\nTodo apunta a que finalmente Obed Vargas continurá siendo jugador del Atlético de Madrid en la actual temporada, tras cerrarse el mercado de fichajes.\n\nParecía un hecho la salida de Vargas del conjunto madrileño, incluso había cedido su dorsal «21» al defensor central Cristian «Cuti» Romero, y se había quedado con el «3».\n\nSin embargo, el director técnico del elenco «colchonero», Diego Simeone, le brindará una nueva oportunidad a Vargas.\n\nVargas, ha venido entrenando con el Atlético de Madrid en la localidad de Majadahonda, pendiente de una posible salida del club rojiblanco antes del cierre del mercado veraniego del 1 de septiembre.\n\nHasta los momentos no ha entrado en ninguna de las dos primeras convocatorias del Atlético ante el Málaga y ante el Villarreal; pero sí lo hizo contra el Sevilla en el estadio Ramón Sánchez-Pizjuán, pese a no ver acción.\n\n¡OBED SE QUEDA! ⚪\n\nAtlético de Madrid habría decidido que el mexicano Vargas siga en el club y así lo contó @IgnacioMiguelez en nuestro especial del cierre de fichajes.\n\n¡EN VIVO!\n\nhttps://t.co/CF4DpWJ8Ef\n\nEn nuestro TikTok #BenditaChampions | #TNTSportsEnHBOMax pic.twitter.com/AKwYGr5zLw\n\n— TNT Sports México (@tntsportsmex) September 1, 2026",
+    "translated_to": "es",
+    "translation_status": "translated"
+  },
+  {
     "id": "0ffdb5f665f057387fb6",
     "title": "Famalicão contrata avançado mexicano Patricio Salas até final da época",
     "source": "Record",
@@ -3128,7 +3174,24 @@
     "rss_title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "rss_body": "Famalicão ficha al delantero mexicano Patricio Salas hasta final de temporada\n\nJugador llega del Club América y se prepara para su primera experiencia en el fútbol europeo\n\nEl delantero mexicano Patricio Salas, de 22 años, representará al Famalicão hasta final de temporada, anunció este miércoles el club Liga Betclic. El jugador llega al emblema de Minho proveniente del Club América y se prepara para tener su primera experiencia en el fútbol europeo.\n\n\"Estoy muy ilusionado y con muchas ganas de empezar este nuevo desafío. Venir a Europa es el mayor paso en mi todavía corta carrera y hacerlo al servicio de un club tan ambicioso es un enorme orgullo y, al mismo tiempo, mucha responsabilidad\", afirmó, citado por Famalicão.\n\nPatricio Salas reconoció que llega al fútbol portugués con la misión de aportar goles y asistencias. \"Tengo la intención de estar a la altura de las expectativas para marcar la diferencia en la Liga portuguesa\", afirmó el delantero.\n\nEl mexicano se definió como \"un jugador técnico, al que le gusta tener el balón y estar cerca de sus compañeros\", pero destacó que antepone al equipo. \"Soy, sobre todo, un jugador de equipo, por lo que se puede esperar que siempre lo deje todo en el campo para ayudar al club a conseguir sus objetivos\", añadió.\n\nPatricio Salas también se mostró convencido de que puede evolucionar al servicio de la gente de Famalicenses. \"El club es ambicioso y siento que creceré mucho a lo largo de la temporada\", concluyó.",
     "translated_to": "es",
-    "translation_status": "translated"
+    "translation_status": "translated",
+    "alternate_sources": [
+      {
+        "title": "Oficial: Patricio Salas reforça ataque do Famalicão",
+        "source": "A Bola",
+        "url": "https://www.abola.pt/noticias/oficial-patricio-salas-reforca-ataque-do-famalicao-2026090208512780576",
+        "published_iso": "2026-09-02T09:06:00+00:00",
+        "body_characters": 109
+      },
+      {
+        "title": "OFICIAL: ataque do Famalicão reforçado com mexicano Patricio Salas",
+        "source": "CNN Portugal",
+        "url": "https://cnnportugal.iol.pt/mercado/liga/oficial-ataque-do-famalicao-reforcado-com-mexicano-patricio-salas",
+        "published_iso": "2026-09-02T08:30:14+00:00",
+        "body_characters": 109
+      }
+    ],
+    "duplicate_versions_removed": 2
   },
   {
     "id": "83f3ee49cf254200c025",
