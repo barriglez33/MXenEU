@@ -3223,7 +3223,17 @@
     "rss_title": "Patricio Salas reforzará a Famalicão hasta final de temporada » Fama Rádio e Televisão",
     "rss_body": "Futebol Clube de Famalicão llegó a un acuerdo con Club de Futbol América para el traspaso de Patricio Salas. El delantero mexicano seguirá vinculado al club del Minho hasta el final de la presente temporada, se anunció este miércoles.\n\nEl jugador se formó en el CF América, pasando por la sub-21 y la sub-23 antes de llegar al equipo principal. Con el escudo de la Ciudad de México ganó una Liga Clausura y dos Ligas Apertura mexicanas, habiendo participado también en la Liga de Campeones de la CONCACAF y la Copa de Ligas.\n\n\"Estoy muy ilusionado y con muchas ganas de empezar este nuevo reto. Venir a Europa es el mayor paso en mi todavía corta carrera y hacerlo al servicio de un club tan ambicioso es un enorme orgullo y, al mismo tiempo, mucha responsabilidad\", afirmó.\n\nEl mexicano sabe que llega con la misión de aportar goles y asistencias. “Sé que esperan goles y asistencias y, de esta manera, pretendo estar a la altura de sus expectativas para marcar la diferencia en la Liga portuguesa”, dijo al presentar su nuevo equipo.\n\nSalas se define como “un jugador técnico, al que le gusta tener el balón y estar cerca de sus compañeros” y refuerza la importancia del colectivo: “juega siempre para el equipo, ya que los goles y las asistencias son consecuencia de lo bien que juegas”.",
     "translated_to": "es",
-    "translation_status": "translated"
+    "translation_status": "translated",
+    "alternate_sources": [
+      {
+        "title": "Patricio Salas é reforço do Famalicão até ao final da época » Fama Rádio e Televisão",
+        "source": "famaradio.tv",
+        "url": "https://famaradio.tv/desporto/09/02/patricio-salas-e-reforco-do-famalicao-ate-ao-final-da-epoca/?amp=",
+        "published_iso": "2026-09-02T08:45:30+00:00",
+        "body_characters": 1290
+      }
+    ],
+    "duplicate_versions_removed": 1
   },
   {
     "id": "f43c3098d30db369ddd7",
@@ -3295,9 +3305,16 @@
         "url": "https://cnnportugal.iol.pt/mercado/liga/oficial-ataque-do-famalicao-reforcado-com-mexicano-patricio-salas",
         "published_iso": "2026-09-02T08:30:14+00:00",
         "body_characters": 1062
+      },
+      {
+        "title": "Oficial: Patricio Salas reforça ataque do Famalicão",
+        "source": "abola.pt",
+        "url": "https://www.abola.pt/noticias/oficial-patricio-salas-reforca-ataque-do-famalicao-2026090208512780576",
+        "published_iso": "2026-09-02T09:06:00+00:00",
+        "body_characters": 1332
       }
     ],
-    "duplicate_versions_removed": 1
+    "duplicate_versions_removed": 2
   },
   {
     "id": "799663fde97d5b5fba4e",
