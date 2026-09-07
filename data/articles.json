@@ -50,7 +50,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "España / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -61,7 +62,17 @@
     "rss_title": "Con el mexicano Mateo Chávez en la cancha, AZ Alkmaar derrota al Heerenveen",
     "rss_body": "Países Bajos.- El AZ Alkmaar consiguió una importante victoria de 3-2 sobre el Heerenveen, en un emocionante encuentro donde el mexicano Mateo Chávez disputó 46 minutos de juego.\n\nRemontada y goles en la Eredivisie\n\nEl conjunto visitante comenzó ganando el partido gracias a un tempranero tanto de Zangelo Daal, sin embargo, los locales reaccionaron con carácter antes de irse al descanso para darle la vuelta parcial al marcador.\n\nPara la segunda mitad, la intensidad se mantuvo alta y Mexx Meerdink igualó los cartones para los visitantes. Cuando todo apuntaba a que el encuentro terminaría en empate, apareció Ayoub Oufkir al minuto 83 para mandar el esférico al fondo de las redes y firmar el 3-2 definitivo que desató la euforia.\n\nLiderato y miras en Europa\n\nEl AZ mostró carácter y determinación en los minutos finales para asegurar los tres puntos en calidad de visitante y redondear una actuación sufrida pero efectiva.\n\nCon este valioso resultado, el AZ Alkmaar llegó al liderato de la Eredivisie, tomando una ventaja de dos puntos sobre el PSV Eindhoven, equipo que previamente derrotó 3-1 al Ajax. El conjunto neerlandés buscará mantener este excelente paso antes de iniciar su participación internacional en la Europa League.",
     "translated_to": "es",
-    "translation_status": "translated"
+    "translation_status": "translated",
+    "alternate_sources": [
+      {
+        "title": "Con el mexicano Mateo Chávez en la cancha, AZ Alkmaar derrota al Heerenveen",
+        "source": "Diario de Morelos",
+        "url": "https://www.diariodemorelos.com/noticias/con-mexicano-mateo-chavez-en-cancha-az-alkmaar-derrota-heerenveen/amp",
+        "published_iso": "2026-09-07T16:26:33+00:00",
+        "body_characters": 1237
+      }
+    ],
+    "duplicate_versions_removed": 1
   },
   {
     "id": "89fd613cbeae7285fe75",
