@@ -1,5 +1,37 @@
 [
   {
+    "id": "ab4b8fe9de3dcbc9291f",
+    "title": "América and one last big push to sign Luis Chávez",
+    "source": "OneFootball",
+    "author": "",
+    "url": "https://onefootball.com/en/news/america-and-one-last-big-push-to-sign-luis-chavez-43432510",
+    "published_iso": "2026-09-10T01:52:59+00:00",
+    "published_rfc2822": "Thu, 10 Sep 2026 01:52:59 +0000",
+    "published_display": "2026-09-10 01:52 UTC",
+    "body": "America Y Ya\n·10 September 2026\nLuis Chávez has undoubtedly been the name most linked with Club América in the current transfer window, especially after the arrival of Guillermo Almada was finalized, a coach who knows the Mexican midfielder well.\nBut negotiations have become very complicated, as Dinamo Moscow does not want to let him leave, and the only option they have given is for his release clause to be paid, something América’s board is not willing to do.\nAnd now, with just over a day left in the transfer window, América’s management is making one last push to try to finalize the signing of Luis Chávez and thus complete the squad for the 2026 Apertura.\nWhat do they need to make the signing happen?\nReally, the only thing separating Luis Chávez from Club América is for his club to give in and negotiate with Club América so he can put pen to paper with Las Águilas.\nChávez wants to come play for Las Águilas, but the negotiation has been anything but simple, and it is hoped that with the time pressure at the close of this transfer window, everything can finally be unlocked and the signing they have been pursuing for a couple of months can at last be completed.\nThis article was translated into English by Artificial Intelligence. You can read the original version in 🇪🇸 here.",
+    "tracked_players": [
+      {
+        "name": "Luis Chávez",
+        "club": "Dinamo de Moscú",
+        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "United Kingdom / English"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-10T02:44:43.442448+00:00",
+    "original_title": "América and one last big push to sign Luis Chávez",
+    "original_body": "America Y Ya\n·10 September 2026\nLuis Chávez has undoubtedly been the name most linked with Club América in the current transfer window, especially after the arrival of Guillermo Almada was finalized, a coach who knows the Mexican midfielder well.\nBut negotiations have become very complicated, as Dinamo Moscow does not want to let him leave, and the only option they have given is for his release clause to be paid, something América’s board is not willing to do.\nAnd now, with just over a day left in the transfer window, América’s management is making one last push to try to finalize the signing of Luis Chávez and thus complete the squad for the 2026 Apertura.\nWhat do they need to make the signing happen?\nReally, the only thing separating Luis Chávez from Club América is for his club to give in and negotiate with Club América so he can put pen to paper with Las Águilas.\nChávez wants to come play for Las Águilas, but the negotiation has been anything but simple, and it is hoped that with the time pressure at the close of this transfer window, everything can finally be unlocked and the signing they have been pursuing for a couple of months can at last be completed.\nThis article was translated into English by Artificial Intelligence. You can read the original version in 🇪🇸 here.",
+    "rss_title": "América y un último gran empujón para fichar a Luis Chávez",
+    "rss_body": "América Y Ya\n\n·10 de septiembre de 2026\n\nLuis Chávez sin duda ha sido el nombre más vinculado con el Club América en la actual ventana de fichajes, sobre todo luego de que se concretara la llegada de Guillermo Almada, técnico que conoce bien al volante mexicano.\n\nPero las negociaciones se han complicado mucho, ya que el Dinamo de Moscú no quiere dejarlo salir, y la única opción que le han dado es que le paguen su cláusula de rescisión, algo que la directiva del América no está dispuesta a hacer.\n\nY ahora, cuando resta poco más de un día para la ventana de transferencias, la dirección del América da un último empujón para intentar concretar el fichaje de Luis Chávez y así completar el plantel de cara al Apertura 2026.\n\n¿Qué necesitan para que el fichaje se lleve a cabo?\n\nRealmente lo único que separa a Luis Chávez del Club América es que su club ceda y negocie con el Club América para poder firmar con Las Águilas.\n\nChávez quiere venir a jugar en Las Águilas, pero la negociación no ha sido nada sencilla y se espera que con la presión del tiempo que aprieta el cierre de este mercado de fichajes por fin se pueda desbloquear todo y por fin se pueda concretar el fichaje que llevan un par de meses persiguiendo.\n\nEste artículo fue traducido al inglés por Inteligencia Artificial. Puedes leer la versión original en 🇪🇸 aquí.",
+    "translated_to": "es",
+    "translation_status": "translated"
+  },
+  {
     "id": "3a068e922d72a506e606",
     "title": "Armando González y el Olympiacos se quedan sin entrenador; José Luis Mendilibar se va - esto",
     "source": "El Sol de México",
@@ -731,9 +763,16 @@
         "url": "https://www.365scores.com/es/news/previa-santiago-gimenez-porto-vs-city/",
         "published_iso": "2026-09-07T21:58:39+00:00",
         "body_characters": 2359
+      },
+      {
+        "title": "Santiago Giménez vuelve a Champions, pero el Porto cae ante Manchester City",
+        "source": "sdpnoticias",
+        "url": "https://www.sdpnoticias.com/deportes/santiago-gimenez-vuelve-a-champions-pero-el-porto-cae-ante-manchester-city/",
+        "published_iso": "2026-09-09T02:42:00+00:00",
+        "body_characters": 1432
       }
     ],
-    "duplicate_versions_removed": 1
+    "duplicate_versions_removed": 2
   },
   {
     "id": "22027eb4ec604d6ec76f",
@@ -1595,49 +1634,6 @@
     "rss_body": "Los 36 equipos que disputarán la fase de liga de la Champions League 2026-27, que arranca el 8 de septiembre, ya presentaron sus listas oficiales de jugadores. Aunque la UEFA permite inscribir hasta 25 futbolistas por club en la llamada Lista A, esa cifra no representa una libertad total para los entrenadores a la hora de armar sus planteles europeos.\n\nLa razón es un sistema de cupos que exige reservar ocho de las 25 plazas para futbolistas formados localmente. De esas ocho posiciones, un máximo de cuatro puede cubrirse con jugadores formados en otro club de la misma federación, mientras que las restantes deben ser futbolistas surgidos de las canteras del propio equipo.\n\nPuedes leer: Raúl “Tayzon” Flores rompe récord mundial en peso muerto y se lo dedica a su perrito fallecido\n\nLa condición no depende de la nacionalidad, sino de haber estado inscrito en el club (o en la federación) durante tres temporadas completas o 36 meses entre los 15 y los 21 años.\n\nEl efecto práctico es contundente: si un club no completa esos cupos, no puede rellenar los espacios vacíos con otros fichajes. Un equipo con solo siete jugadores de formación local, por ejemplo, queda con una lista de 24 nombres en lugar de 25, y así sucesivamente. La UEFA no fuerza a los clubes a cumplir el cupo, pero tampoco permite usar esas plazas para otro tipo de futbolista.\n\nLos mexicanos que sí podrán jugar la Champions League\n\nEl Atlético de Madrid confirmó a Obed Vargas con el dorsal 3, lo que descarta por ahora una salida del mexicano a otras ligas con mercado abierto como Portugal o Arabia Saudita.\n\nEn el Porto, en cambio, sí fue inscrito Santiago Giménez, la incorporación más relevante del club portugués para esta temporada, mientras que quedaron afuera Dominik Prpic y el brasileño Gabriel Mec.\n\nTambién puedes leer: Luka Romero contempla dejar Argentina para jugar con la Selección Mexicana\n\nLos jugadores que quedaron fuera\n\nEntre los casos más comentados está el del Real Madrid, que dejó fuera a Ferland Mendy, aún en recuperación de una lesión en el tendón del recto femoral. En el Barcelona, la ausencia de Roony Bardghji, de baja por unos seis meses, llevó a Hansi Flick a incluir en su lugar a jóvenes como Hamza Abdelkarim, Jesse Bisiwu y Brian Fariñas.\n\nEn el Liverpool, Andoni Iraola excluyó a Federico Chiesa y Wataru Endo, una decisión que generó críticas del exjugador Jamie Carragher, quien en Sky Sports cuestionó que ambos futbolistas prácticamente no sumen minutos en el equipo.\n\nTambién llamaron la atención las ausencias de Taylor Harwood-Bellis en el Aston Villa, recién comprado por 29.2 millones de euros, y la de Lennart Karl en el Bayern Múnich, aunque en este último caso se espera que sea incorporado más adelante a través de la Lista B, reservada para futbolistas nacidos después de enero de 2005.\n\nEl caso más severo fue el de Folarin Balogun, del Mónaco, quien quedó fuera de la lista de la Conference League sin posibilidad de apelar a la Lista B, por lo que deberá esperar hasta enero para jugar competencias europeas.",
     "translated_to": "es",
     "translation_status": "translated"
-  },
-  {
-    "id": "9df1ca68bbe32a13dac2",
-    "title": "Santiago Giménez debuta en Champions Porto vs Manchester City",
-    "source": "365Scores",
-    "author": "Fernando Esquivel",
-    "url": "https://www.365scores.com/es/news/previa-santiago-gimenez-porto-vs-city/",
-    "published_iso": "2026-09-07T21:58:39+00:00",
-    "published_rfc2822": "Mon, 07 Sep 2026 21:58:39 +0000",
-    "published_display": "2026-09-07 21:58 UTC",
-    "body": "La expectativa es máxima, pues Santiago Giménez debutará con la camiseta de los Dragones en la máxima competencia de Clubes a nivel Europa, en un choque estelar de alto calibre dentro del certamen continental.\nA continuación, en 365Scores te detallamos la previa de este esperado compromiso, el calendario completo de partidos y los minutos previstos para Santiago Giménez.\nDebut estelar en la Champions League\nEl recién llegado Santiago Giménez saltará al terreno de juego este martes 8 de septiembre de 2026 para encarar el arranque de la competición europea. El cuerpo técnico de los Dragones contempla que el atacante azteca tenga minutos de calidad desde la Jornada 1 frente a la escuadra cityzen.\nEl choque entre Porto vs Manchester City representa la prueba más dura de la Fase de Liga, donde la presencia de Santiago Giménez será clave para buscar dar la sorpresa en el arranque de la Champions League.\nCHAMPIONS MODE: ON 🔛🏆💙 pic.twitter.com/1iNn8uGEc3\n— FC Porto (@FCPorto) September 7, 2026\nEl calendario completo del FC Porto en la Champions League\nLa escuadra portuguesa sostendrá un camino vibrante a lo largo de la primera ronda del torneo continental. Destaca de manera especial el emotivo reencuentro que vivirá el ‘Bebote’ cuando le toque visitar la cancha del Feyenoord a finales de noviembre.\nA continuación, te presentamos las fechas y rivales confirmados para el cuadro lusitano:\n- Manchester City (Local) – 8 de septiembre de 2026\n- Real Betis (Visitante) – 14 de octubre de 2026\n- PSV Eindhoven (Local) – 20 de octubre de 2026\n- Napoli (Local) – 4 de noviembre de 2026\n- Feyenoord (Visitante) – 24 de noviembre de 2026\n- Liverpool (Visitante) – 9 de diciembre de 2026\n- Slavia Praga (Local) – 19 de enero de 2027\n- LASK Linz (Visitante) – 27 de enero de 2027\nVer a Santiago Giménez asumir el rol de referente ofensivo en el FC Porto genera enorme ilusión en el entorno de la Selección Mexicana de cara al ciclo mundialista.\nEn conclusión, la participación de Santiago Giménez en el choque continental marca el inicio de una etapa llena de retos al máximo nivel. Te recomendamos seguir el minuto a minuto en vivo, las estadísticas de sus disparos a puerta y todas las emociones del partido a través de la aplicación oficial de 365Scores, la plataforma número uno para enterarte de todas las exclusivas antes que nadie.",
-    "tracked_players": [
-      {
-        "name": "Santiago Giménez",
-        "club": "Porto",
-        "group": "Portugal y Países Bajos"
-      }
-    ],
-    "source_languages": [],
-    "source_countries": [
-      "España / Español",
-      "México / Español"
-    ],
-    "discovery_sources": [
-      "Google News"
-    ],
-    "collected_iso": "2026-09-09T10:38:28.433431+00:00",
-    "original_title": "Santiago Giménez debuta en Champions Porto vs Manchester City",
-    "original_body": "La expectativa es máxima, pues Santiago Giménez debutará con la camiseta de los Dragones en la máxima competencia de Clubes a nivel Europa, en un choque estelar de alto calibre dentro del certamen continental.\nA continuación, en 365Scores te detallamos la previa de este esperado compromiso, el calendario completo de partidos y los minutos previstos para Santiago Giménez.\nDebut estelar en la Champions League\nEl recién llegado Santiago Giménez saltará al terreno de juego este martes 8 de septiembre de 2026 para encarar el arranque de la competición europea. El cuerpo técnico de los Dragones contempla que el atacante azteca tenga minutos de calidad desde la Jornada 1 frente a la escuadra cityzen.\nEl choque entre Porto vs Manchester City representa la prueba más dura de la Fase de Liga, donde la presencia de Santiago Giménez será clave para buscar dar la sorpresa en el arranque de la Champions League.\nCHAMPIONS MODE: ON 🔛🏆💙 pic.twitter.com/1iNn8uGEc3\n— FC Porto (@FCPorto) September 7, 2026\nEl calendario completo del FC Porto en la Champions League\nLa escuadra portuguesa sostendrá un camino vibrante a lo largo de la primera ronda del torneo continental. Destaca de manera especial el emotivo reencuentro que vivirá el ‘Bebote’ cuando le toque visitar la cancha del Feyenoord a finales de noviembre.\nA continuación, te presentamos las fechas y rivales confirmados para el cuadro lusitano:\n- Manchester City (Local) – 8 de septiembre de 2026\n- Real Betis (Visitante) – 14 de octubre de 2026\n- PSV Eindhoven (Local) – 20 de octubre de 2026\n- Napoli (Local) – 4 de noviembre de 2026\n- Feyenoord (Visitante) – 24 de noviembre de 2026\n- Liverpool (Visitante) – 9 de diciembre de 2026\n- Slavia Praga (Local) – 19 de enero de 2027\n- LASK Linz (Visitante) – 27 de enero de 2027\nVer a Santiago Giménez asumir el rol de referente ofensivo en el FC Porto genera enorme ilusión en el entorno de la Selección Mexicana de cara al ciclo mundialista.\nEn conclusión, la participación de Santiago Giménez en el choque continental marca el inicio de una etapa llena de retos al máximo nivel. Te recomendamos seguir el minuto a minuto en vivo, las estadísticas de sus disparos a puerta y todas las emociones del partido a través de la aplicación oficial de 365Scores, la plataforma número uno para enterarte de todas las exclusivas antes que nadie.",
-    "rss_title": "Santiago Giménez debuta en Champions Porto vs Manchester City",
-    "rss_body": "La expectativa es máxima, pues Santiago Giménez debutará con la camiseta de los Dragones en la máxima competencia de Clubes a nivel Europa, en un choque estelar de alto calibre dentro del certamen continental.\n\nA continuación, en 365Scores te detallamos la previa de este esperado compromiso, el calendario completo de partidos y los minutos previstos para Santiago Giménez.\n\nDebut estelar en la Champions League\n\nEl recién llegado Santiago Giménez saltará al terreno de juego este martes 8 de septiembre de 2026 para encarar el arranque de la competición europea. El cuerpo técnico de los Dragones contempla que el atacante azteca tenga minutos de calidad desde la Jornada 1 frente a la escuadra cityzen.\n\nEl choque entre Porto vs Manchester City representa la prueba más dura de la Fase de Liga, donde la presencia de Santiago Giménez será clave para buscar dar la sorpresa en el arranque de la Champions League.\n\nCHAMPIONS MODE: ON 🔛🏆💙 pic.twitter.com/1iNn8uGEc3\n\n— FC Porto (@FCPorto) September 7, 2026\n\nEl calendario completo del FC Porto en la Champions League\n\nLa escuadra portuguesa sostendrá un camino vibrante a lo largo de la primera ronda del torneo continental. Destaca de manera especial el emotivo reencuentro que vivirá el ‘Bebote’ cuando le toque visitar la cancha del Feyenoord a finales de noviembre.\n\nA continuación, te presentamos las fechas y rivales confirmados para el cuadro lusitano:\n\n- Manchester City (Local) – 8 de septiembre de 2026\n\n- Real Betis (Visitante) – 14 de octubre de 2026\n\n- PSV Eindhoven (Local) – 20 de octubre de 2026\n\n- Napoli (Local) – 4 de noviembre de 2026\n\n- Feyenoord (Visitante) – 24 de noviembre de 2026\n\n- Liverpool (Visitante) – 9 de diciembre de 2026\n\n- Slavia Praga (Local) – 19 de enero de 2027\n\n- LASK Linz (Visitante) – 27 de enero de 2027\n\nVer a Santiago Giménez asumir el rol de referente ofensivo en el FC Porto genera enorme ilusión en el entorno de la Selección Mexicana de cara al ciclo mundialista.\n\nEn conclusión, la participación de Santiago Giménez en el choque continental marca el inicio de una etapa llena de retos al máximo nivel. Te recomendamos seguir el minuto a minuto en vivo, las estadísticas de sus disparos a puerta y todas las emociones del partido a través de la aplicación oficial de 365Scores, la plataforma número uno para enterarte de todas las exclusivas antes que nadie.",
-    "translated_to": "es",
-    "translation_status": "translated",
-    "alternate_sources": [
-      {
-        "title": "Santiago Giménez vuelve a Champions, pero el Porto cae ante Manchester City",
-        "source": "sdpnoticias",
-        "url": "https://www.sdpnoticias.com/deportes/santiago-gimenez-vuelve-a-champions-pero-el-porto-cae-ante-manchester-city/",
-        "published_iso": "2026-09-09T02:42:00+00:00",
-        "body_characters": 1432
-      }
-    ],
-    "duplicate_versions_removed": 1
   },
   {
     "id": "40c3da5a16ec0a14cdbe",
