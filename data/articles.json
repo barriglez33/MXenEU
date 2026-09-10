@@ -32,6 +32,49 @@
     "translation_status": "translated"
   },
   {
+    "id": "87dce7c00479ee286942",
+    "title": "Obed Vargas: notícias, estatísticas e carreira | VAVEL",
+    "source": "VAVEL.com",
+    "author": "Obed Vargas",
+    "url": "https://www.vavel.com/br/data/obed-vargas/",
+    "published_iso": "2026-09-10T13:09:19+00:00",
+    "published_rfc2822": "Thu, 10 Sep 2026 13:09:19 +0000",
+    "published_display": "2026-09-10 13:09 UTC",
+    "body": "Obed Gómez Vargas (Anchorage, Alasca, 5 de agosto de 2005) é um meio-campista de 21 anos que pertence ao Atlético de Madrid, clube que o contratou em 2 de fevereiro de 2026 junto ao Seattle Sounders com vínculo até 30 de junho de 2030. Nascido na maior cidade do Alasca e filho de pais originários de Michoacán, é internacional pela seleção principal do México e esteve entre os 26 convocados por Javier Aguirre para a Copa do Mundo de 2026. Sua trajetória é atípica no futebol norte-americano: cresceu sem clube profissional por perto, estreou na MLS aos 15 anos e chegou a LaLiga depois de conquistar dois títulos em Seattle.",
+    "tracked_players": [
+      {
+        "name": "Obed Vargas",
+        "club": "Atlético de Madrid",
+        "group": "España"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "Portugal / Português",
+      "United Kingdom / English"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-10T15:32:37.542127+00:00",
+    "original_title": "Obed Vargas: notícias, estatísticas e carreira | VAVEL",
+    "original_body": "Obed Gómez Vargas (Anchorage, Alasca, 5 de agosto de 2005) é um meio-campista de 21 anos que pertence ao Atlético de Madrid, clube que o contratou em 2 de fevereiro de 2026 junto ao Seattle Sounders com vínculo até 30 de junho de 2030. Nascido na maior cidade do Alasca e filho de pais originários de Michoacán, é internacional pela seleção principal do México e esteve entre os 26 convocados por Javier Aguirre para a Copa do Mundo de 2026. Sua trajetória é atípica no futebol norte-americano: cresceu sem clube profissional por perto, estreou na MLS aos 15 anos e chegou a LaLiga depois de conquistar dois títulos em Seattle.",
+    "rss_title": "Obed Vargas: noticias, estadísticas y trayectoria | VAVEL",
+    "rss_body": "Obed Gómez Vargas (Anchorage, Alaska, 5 de agosto de 2005) es un mediocampista de 21 años que pertenece al Atlético de Madrid, club que lo fichó el 2 de febrero de 2026 procedente del Seattle Sounders con contrato hasta el 30 de junio de 2030. Nacido en la ciudad más grande de Alaska e hijo de padres michoacanos, es internacional con la principal selección de México y estuvo entre los 26 convocados por Javier. Aguirre para el Mundial 2026. Su trayectoria es atípica en el fútbol norteamericano: creció sin un club profesional cercano, debutó en la MLS con 15 años y llegó a LaLiga tras conquistar dos títulos en Seattle.",
+    "translated_to": "es",
+    "translation_status": "translated",
+    "alternate_sources": [
+      {
+        "title": "Obed Vargas: news, stats and career | VAVEL",
+        "source": "VAVEL.com",
+        "url": "https://www.vavel.com/en/data/obed-vargas/",
+        "published_iso": "2026-09-10T05:29:41+00:00",
+        "body_characters": 624
+      }
+    ],
+    "duplicate_versions_removed": 1
+  },
+  {
     "id": "d785ce96cd3a55b2085a",
     "title": "Transferência confirmada: FC Famalicão fechou com Patricio Salas.",
     "source": "OneFootball",
@@ -124,38 +167,6 @@
     "original_body": "Position: Midfielder (Central Midfield)# 3Team: Atlético de Madrid21 yearsMexico175 cmFoot: rightMarket value: 9.1 M€Contract until: 2030\n| Competition | Team | App | Starts | Min | G | A | YC | RC | Rating | \n|---|---|---|---|---|---|---|---|---|---|\n| Season total |  | 21 | 13 | 456 | 0 | 1 | 3 | 0 | 6.71 | \n| La Liga | Atlético de Madrid | 12 | 8 | - | 0 | 1 | 2 | - | 6.77 | \n| Copa del Rey | Atlético de Madrid | 1 | 0 | 11 | 0 | 0 | - | - | 6.57 | \n| World Cup U20 | Mexico U20 | 5 | 5 | 382 | 0 | 0 | 1 | 0 | 6.66 | \n| World Cup | Mexico | 3 | 0 | 63 | 0 | 0 | - | - | 6.61 | \n| Friendlies | Atlético de Madrid | 10 | 5 | 307 | 2 | 0 | 0 | 0 | 6.63 | \n| Competition | Team | App | Starts | Min | G | A | YC | RC | Rating | \n|---|---|---|---|---|---|---|---|---|---|\n| Season total |  | 29 | 29 | 1308 | 3 | 1 | 3 | 0 | 7.15 | \n| CONCACAF Champions Cup | Seattle Sounders | 3 | 3 | 270 | 0 | 1 | 1 | 0 | 7.15 | \n| Major League Soccer | Seattle Sounders | 26 | 26 | 1038 | 3 | 0 | 2 | 0 | 7.15 | \n| Competition | Team | App | Starts | Min | G | A | YC | RC | Rating | \n|---|---|---|---|---|---|---|---|---|---|\n| Season total |  | 35 | 32 | 2972 | 1 | 4 | 4 | 0 | 7.18 | \n| Major League Soccer | Seattle Sounders | 33 | 31 | 2873 | 1 | 4 | 4 | 0 | 7.19 | \n| US Open Cup | Seattle Sounders | 2 | 1 | 99 | 0 | 0 | 0 | 0 | 6.99 | \n| Friendlies | Seattle Sounders | 1 | 0 | 7 | 0 | 0 | 0 | 0 | 6.63 | \n| Competition | Team | App | Starts | Min | G | A | YC | RC | Rating | \n|---|---|---|---|---|---|---|---|---|---|\n| Season total |  | 30 | 18 | 1691 | 0 | 1 | 0 | 0 | 6.90 | \n| Major League Soccer | Seattle Sounders | 24 | 14 | 1343 | 0 | 1 | 0 | 0 | 6.88 | \n| US Open Cup | Seattle Sounders | 1 | 1 | 102 | 0 | 0 | 0 | 0 | 6.83 | \n| World Cup U20 | USA U20 | 5 | 3 | 246 | 0 | 0 | 0 | 0 | 7.02 | \n| Friendlies | Seattle Sounders | 4 | 2 | 185 | 1 | 0 | 0 | 0 | - | \n| Competition | Team | App | Starts | Min | G | A | YC | RC | Rating | \n|---|---|---|---|---|---|---|---|---|---|\n| Season total |  | 21 | 13 | 1277 | 0 | 0 | 7 | 0 | 6.86 | \n| CONCACAF Champions Cup | Seattle Sounders | 7 | 3 | 378 | 0 | 0 | 1 | 0 | 6.87 | \n| Major League Soccer | Seattle Sounders | 13 | 10 | 855 | 0 | 0 | 6 | 0 | 6.81 | \n| US Open Cup | Seattle Sounders | 1 | 0 | 44 | 0 | 0 | 0 | 0 | 7.34 | \n| Competition | Team | App | Starts | Min | G | A | YC | RC | Rating | \n|---|---|---|---|---|---|---|---|---|---|\n| Season total |  | 29 | 20 | 1939 | 0 | 1 | 2 | 0 | 6.82 | \n| USL Championship | Tacoma Defiance | 28 | 19 | 1862 | 0 | 1 | 2 | 0 | 6.82 | \n| Major League Soccer | Seattle Sounders | 1 | 1 | 77 | 0 | 0 | 0 | 0 | 6.83 |",
     "rss_title": "Estadísticas de Obed Vargas 2026: goles, asistencias y apariciones | VAVEL",
     "rss_body": "Posición: Mediocentro (Mediocampista Central)#3Equipo: Atlético de Madrid21 añosMéxico175 cmPie: derechoValor de mercado: 9,1 M€Contrato hasta: 2030\n\n| Competencia | Equipo | Aplicación | Comienza | Mín | GRAMO | Un | YC | RC | Calificación |\n\n|---|---|---|---|---|---|---|---|---|---|\n\n| Total de temporada |  | 21 | 13 | 456 | 0 | 1 | 3 | 0 | 6,71 |\n\n| La Liga | Atlético de Madrid | 12 | 8 | - | 0 | 1 | 2 | - | 6,77 |\n\n| Copa del Rey | Atlético de Madrid | 1 | 0 | 11 | 0 | 0 | - | - | 6,57 |\n\n| Mundial Sub 20 | México U20 | 5 | 5 | 382 | 0 | 0 | 1 | 0 | 6,66 |\n\n| Copa del Mundo | México | 3 | 0 | 63 | 0 | 0 | - | - | 6,61 |\n\n| Amistosos | Atlético de Madrid | 10 | 5 | 307 | 2 | 0 | 0 | 0 | 6,63 |\n\n| Competencia | Equipo | Aplicación | Comienza | Mín | GRAMO | Un | YC | RC | Calificación |\n\n|---|---|---|---|---|---|---|---|---|---|\n\n| Total de temporada |  | 29 | 29 | 1308 | 3 | 1 | 3 | 0 | 7.15 |\n\n| Copa de Campeones CONCACAF | Sondas de Seattle | 3 | 3 | 270 | 0 | 1 | 1 | 0 | 7.15 |\n\n| Liga Mayor de Fútbol | Sondas de Seattle | 26 | 26 | 1038 | 3 | 0 | 2 | 0 | 7.15 |\n\n| Competencia | Equipo | Aplicación | Comienza | Mín | GRAMO | Un | YC | RC | Calificación |\n\n|---|---|---|---|---|---|---|---|---|---|\n\n| Total de temporada |  | 35 | 32 | 2972 | 1 | 4 | 4 | 0 | 7.18 |\n\n| Liga Mayor de Fútbol | Sondas de Seattle | 33 | 31 | 2873 | 1 | 4 | 4 | 0 | 7.19 |\n\n| Copa Abierta de Estados Unidos | Sondas de Seattle | 2 | 1 | 99 | 0 | 0 | 0 | 0 | 6,99 |\n\n| Amistosos | Sondas de Seattle | 1 | 0 | 7 | 0 | 0 | 0 | 0 | 6,63 |\n\n| Competencia | Equipo | Aplicación | Comienza | Mín | GRAMO | Un | YC | RC | Calificación |\n\n|---|---|---|---|---|---|---|---|---|---|\n\n| Total de temporada |  | 30 | 18 | 1691 | 0 | 1 | 0 | 0 | 6,90 |\n\n| Liga Mayor de Fútbol | Sondas de Seattle | 24 | 14 | 1343 | 0 | 1 | 0 | 0 | 6,88 |\n\n| Copa Abierta de Estados Unidos | Sondas de Seattle | 1 | 1 | 102 | 0 | 0 | 0 | 0 | 6,83 |\n\n| Mundial Sub 20 | Estados Unidos U20 | 5 | 3 | 246 | 0 | 0 | 0 | 0 | 7.02 |\n\n| Amistosos | Sondas de Seattle | 4 | 2 | 185 | 1 | 0 | 0 | 0 | - |\n\n| Competencia | Equipo | Aplicación | Comienza | Mín | GRAMO | Un | YC | RC | Calificación |\n\n|---|---|---|---|---|---|---|---|---|---|\n\n| Total de temporada |  | 21 | 13 | 1277 | 0 | 0 | 7 | 0 | 6,86 |\n\n| Copa de Campeones CONCACAF | Sondas de Seattle | 7 | 3 | 378 | 0 | 0 | 1 | 0 | 6,87 |\n\n| Liga Mayor de Fútbol | Sondas de Seattle | 13 | 10 | 855 | 0 | 0 | 6 | 0 | 6,81 |\n\n| Copa Abierta de Estados Unidos | Sondas de Seattle | 1 | 0 | 44 | 0 | 0 | 0 | 0 | 7.34 |\n\n| Competencia | Equipo | Aplicación | Comienza | Mín | GRAMO | Un | YC | RC | Calificación |\n\n|---|---|---|---|---|---|---|---|---|---|\n\n| Total de temporada |  | 29 | 20 | 1939 | 0 | 1 | 2 | 0 | 6,82 |\n\n| Campeonato de la USL | Desafío de Tacoma | 28 | 19 | 1862 | 0 | 1 | 2 | 0 | 6,82 |\n\n| Liga Mayor de Fútbol | Sondas de Seattle | 1 | 1 | 77 | 0 | 0 | 0 | 0 | 6,83 |",
-    "translated_to": "es",
-    "translation_status": "translated"
-  },
-  {
-    "id": "e7e0fd7a15be159369e5",
-    "title": "Obed Vargas: news, stats and career | VAVEL",
-    "source": "VAVEL.com",
-    "author": "Obed Vargas",
-    "url": "https://www.vavel.com/en/data/obed-vargas/",
-    "published_iso": "2026-09-10T05:29:41+00:00",
-    "published_rfc2822": "Thu, 10 Sep 2026 05:29:41 +0000",
-    "published_display": "2026-09-10 05:29 UTC",
-    "body": "Obed Gómez Vargas (born 5 August 2005 in Anchorage, Alaska) is a 21-year-old midfielder on the books of Atlético de Madrid, who signed him from Seattle Sounders on 2 February 2026 on a deal running to 30 June 2030. Born in Alaska's largest city to parents from Michoacán, he is a full international for Mexico and was one of Javier Aguirre's 26 players at the 2026 World Cup. His path is an unusual one in North American football: he grew up in a state with no professional club, made his MLS debut at 15 and reached LaLiga after winning two trophies in Seattle.",
-    "tracked_players": [
-      {
-        "name": "Obed Vargas",
-        "club": "Atlético de Madrid",
-        "group": "España"
-      }
-    ],
-    "source_languages": [],
-    "source_countries": [
-      "United Kingdom / English"
-    ],
-    "discovery_sources": [
-      "Google News"
-    ],
-    "collected_iso": "2026-09-10T07:32:52.688570+00:00",
-    "original_title": "Obed Vargas: news, stats and career | VAVEL",
-    "original_body": "Obed Gómez Vargas (born 5 August 2005 in Anchorage, Alaska) is a 21-year-old midfielder on the books of Atlético de Madrid, who signed him from Seattle Sounders on 2 February 2026 on a deal running to 30 June 2030. Born in Alaska's largest city to parents from Michoacán, he is a full international for Mexico and was one of Javier Aguirre's 26 players at the 2026 World Cup. His path is an unusual one in North American football: he grew up in a state with no professional club, made his MLS debut at 15 and reached LaLiga after winning two trophies in Seattle.",
-    "rss_title": "Obed Vargas: noticias, estadísticas y carrera | VAVEL",
-    "rss_body": "Obed Gómez Vargas (nacido el 5 de agosto de 2005 en Anchorage, Alaska) es un mediocampista de 21 años en los libros del Atlético de Madrid, que lo fichó procedente del Seattle Sounders el 2 de febrero de 2026 con un contrato que se extenderá hasta el 30 de junio de 2030. Nacido en la ciudad más grande de Alaska de padres michoacanos, es internacional absoluto con México y fue uno de los 26 jugadores de Javier Aguirre en el Mundial 2026. Copa. Su camino es inusual en el fútbol norteamericano: creció en un estado sin club profesional, debutó en la MLS con 15 años y llegó a LaLiga tras conquistar dos trofeos en Seattle.",
     "translated_to": "es",
     "translation_status": "translated"
   },
