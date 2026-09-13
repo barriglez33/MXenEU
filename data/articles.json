@@ -2958,7 +2958,8 @@
     "source_languages": [],
     "source_countries": [
       "Portugal / Português",
-      "United Kingdom / English"
+      "United Kingdom / English",
+      "United States / English"
     ],
     "discovery_sources": [
       "Google News"
@@ -2977,9 +2978,16 @@
         "url": "https://www.vavel.com/en/data/obed-vargas/",
         "published_iso": "2026-09-10T05:29:41+00:00",
         "body_characters": 109
+      },
+      {
+        "title": "Obed Vargas stats 2026: goals, assists and appearances | VAVEL",
+        "source": "vavel.com",
+        "url": "https://www.vavel.com/en-us/data/obed-vargas/stats/",
+        "published_iso": "2026-09-10T12:10:39+00:00",
+        "body_characters": 109
       }
     ],
-    "duplicate_versions_removed": 1
+    "duplicate_versions_removed": 2
   },
   {
     "id": "e3b69aa4dd1a57bc92db",
