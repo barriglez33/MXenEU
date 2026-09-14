@@ -1,5 +1,37 @@
 [
   {
+    "id": "ad6b78135c499d455121",
+    "title": "Patricio Salas hace su debut",
+    "source": "Diario de Yucatán",
+    "author": "Edición impresa",
+    "url": "https://www.yucatan.com.mx/deportes/2026/09/14/patricio-salas-hace-su-debut.html",
+    "published_iso": "2026-09-14T06:00:00+00:00",
+    "published_rfc2822": "Mon, 14 Sep 2026 06:00:00 +0000",
+    "published_display": "2026-09-14 06:00 UTC",
+    "body": "El fútbol yucateco vivió ayer una jornada histórica con el debut del delantero Patricio Salas en la Primera División de Portugal.\nEl canterano del América, quien llegó a préstamo al Famalicao en las últimas horas del mercado de transferencias, ingresó en el minuto 82 en el empate contra un club histórico como el Sporting Club de Lisboa (donde debutó Cristiano).\nLos locales, que se vieron abajo en el marcador tras la anotación del colombiano Luis Suárez, consiguieron la igualada gracias a un autogol de Gonzalo Inácio, a los 91’.\nEl yucateco tuvo participación en la jugada que originó el empate. Su compañero Umar Abubakar cabeceó dentro del área, hacia donde estaba el “Pato”, lo que provocó el intento de despeje por parte del central portugués, que terminó dentro de su portería.\nEl héroe de los Lobos\nRaúl Alonso Jiménez sigue agrandando su leyenda en el Wolverhampton.\nEl delantero mexicano le dio los tres puntos a su equipo al anotar en los instantes finales del duelo contra el Sheffield United.\nJiménez se encontraba dentro del área chica, al minuto 90, y empujó un balón, que iba fuera del arco, para que los Lobos se llevaran la victoria 1-0.\nCon este triunfo, su equipo llegó a 11 unidades y, con un partido pendiente, subió a la séptima posición en la tabla de la Segunda División de Inglaterra.\nAterriza en los Balcanes\nSaulo Tejeda, una de las jóvenes promesas del fútbol mexicano, dio el salto al Viejo Continente.\nEl extremo, de 17 años, fue contratado por el Dínamo Zagreb, de Croacia.",
+    "tracked_players": [
+      {
+        "name": "Patricio Salas",
+        "club": "Famalicao",
+        "group": "Portugal y Países Bajos"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-14T07:39:47.589257+00:00",
+    "original_title": "Patricio Salas hace su debut",
+    "original_body": "El fútbol yucateco vivió ayer una jornada histórica con el debut del delantero Patricio Salas en la Primera División de Portugal.\nEl canterano del América, quien llegó a préstamo al Famalicao en las últimas horas del mercado de transferencias, ingresó en el minuto 82 en el empate contra un club histórico como el Sporting Club de Lisboa (donde debutó Cristiano).\nLos locales, que se vieron abajo en el marcador tras la anotación del colombiano Luis Suárez, consiguieron la igualada gracias a un autogol de Gonzalo Inácio, a los 91’.\nEl yucateco tuvo participación en la jugada que originó el empate. Su compañero Umar Abubakar cabeceó dentro del área, hacia donde estaba el “Pato”, lo que provocó el intento de despeje por parte del central portugués, que terminó dentro de su portería.\nEl héroe de los Lobos\nRaúl Alonso Jiménez sigue agrandando su leyenda en el Wolverhampton.\nEl delantero mexicano le dio los tres puntos a su equipo al anotar en los instantes finales del duelo contra el Sheffield United.\nJiménez se encontraba dentro del área chica, al minuto 90, y empujó un balón, que iba fuera del arco, para que los Lobos se llevaran la victoria 1-0.\nCon este triunfo, su equipo llegó a 11 unidades y, con un partido pendiente, subió a la séptima posición en la tabla de la Segunda División de Inglaterra.\nAterriza en los Balcanes\nSaulo Tejeda, una de las jóvenes promesas del fútbol mexicano, dio el salto al Viejo Continente.\nEl extremo, de 17 años, fue contratado por el Dínamo Zagreb, de Croacia.",
+    "rss_title": "Patricio Salas hace su debut",
+    "rss_body": "El fútbol yucateco vivió ayer una jornada histórica con el debut del delantero Patricio Salas en la Primera División de Portugal.\nEl canterano del América, quien llegó a préstamo al Famalicao en las últimas horas del mercado de transferencias, ingresó en el minuto 82 en el empate contra un club histórico como el Sporting Club de Lisboa (donde debutó Cristiano).\nLos locales, que se vieron abajo en el marcador tras la anotación del colombiano Luis Suárez, consiguieron la igualada gracias a un autogol de Gonzalo Inácio, a los 91’.\nEl yucateco tuvo participación en la jugada que originó el empate. Su compañero Umar Abubakar cabeceó dentro del área, hacia donde estaba el “Pato”, lo que provocó el intento de despeje por parte del central portugués, que terminó dentro de su portería.\nEl héroe de los Lobos\nRaúl Alonso Jiménez sigue agrandando su leyenda en el Wolverhampton.\nEl delantero mexicano le dio los tres puntos a su equipo al anotar en los instantes finales del duelo contra el Sheffield United.\nJiménez se encontraba dentro del área chica, al minuto 90, y empujó un balón, que iba fuera del arco, para que los Lobos se llevaran la victoria 1-0.\nCon este triunfo, su equipo llegó a 11 unidades y, con un partido pendiente, subió a la séptima posición en la tabla de la Segunda División de Inglaterra.\nAterriza en los Balcanes\nSaulo Tejeda, una de las jóvenes promesas del fútbol mexicano, dio el salto al Viejo Continente.\nEl extremo, de 17 años, fue contratado por el Dínamo Zagreb, de Croacia.",
+    "translated_to": "es",
+    "translation_status": "fallback_original"
+  },
+  {
     "id": "edace0bdb6e648276146",
     "title": "Heriberto Jurado vuelve a México con Puebla",
     "source": "W Deportes",
@@ -103,7 +135,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "España / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -480,11 +513,6 @@
         "name": "Armando León",
         "club": "NK Osijek",
         "group": "Otras Ligas y Selecciones Inferiores"
-      },
-      {
-        "name": "Johan Vásquez",
-        "club": "Genoa",
-        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
       }
     ],
     "source_languages": [],
