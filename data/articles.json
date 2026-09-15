@@ -818,6 +818,11 @@
         "name": "Armando León",
         "club": "NK Osijek",
         "group": "Otras Ligas y Selecciones Inferiores"
+      },
+      {
+        "name": "Johan Vásquez",
+        "club": "Genoa",
+        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
       }
     ],
     "source_languages": [],
@@ -1672,38 +1677,6 @@
     "translation_status": "translated"
   },
   {
-    "id": "51622f92a025362b46d6",
-    "title": "Johan Vásquez anota gol y es expulsado con el Genoa en la Serie A",
-    "source": "TUDN",
-    "author": "",
-    "url": "https://www.tudn.com/futbol/serie-a/johan-vasquez-anota-gol-y-es-expulsado-con-el-genoa-en-la-serie-a-ante-el-frosinone",
-    "published_iso": "2026-09-12T16:38:33+00:00",
-    "published_rfc2822": "Sat, 12 Sep 2026 16:38:33 +0000",
-    "published_display": "2026-09-12 16:38 UTC",
-    "body": "Johan Vásquez, defensa mexicano del Genoa, vivió las dos caras de la moneda con su equipo en la Serie A de Italia en partido ante el Frosinone dentro del Calcio.\nVásquez anotó un auténtico golazo para empatar el encuentro que finalmente acabó 1-1 al venir de at´ras e impactar un balón para ponerlo prácticamente en el ángulo tras un cobro de tiro de esquina.\nEl gol del mexicano llegó a los 50', y de esta forma, el conjunto genovés tenía un respiro importante en un encuentro vital para la permanencia, cuando la Serie A todavía está en sus primeras jornadas.\nJustamente la lucha por no descender a la Serie B hace que Johan sea un baluarte importante para el Genoa, aunque en esta ocasión, el capitán le hará falta a su equipo en el próximo partido dentro del futbol italiano, ya que fue expulsado cerca del final del compromiso.\nHéroe y villano, Johan Vásquez vio la tarjeta roja a los 86' y, de esta forma, tendrá que estar en la congeladora para el partido ante el Parma y en donde el Genoa tendrá que jugar prácticamente una Final en cada encuentro en el Calcio.\nDespués de cuatro partidos, los genoveses apenas sumaron su primer punto de la temporada para ir en la penúltima posición de la Serie A.",
-    "tracked_players": [
-      {
-        "name": "Johan Vásquez",
-        "club": "Genoa",
-        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
-      }
-    ],
-    "source_languages": [],
-    "source_countries": [
-      "México / Español"
-    ],
-    "discovery_sources": [
-      "Google News"
-    ],
-    "collected_iso": "2026-09-13T22:40:56.466594+00:00",
-    "original_title": "Johan Vásquez anota gol y es expulsado con el Genoa en la Serie A",
-    "original_body": "Johan Vásquez, defensa mexicano del Genoa, vivió las dos caras de la moneda con su equipo en la Serie A de Italia en partido ante el Frosinone dentro del Calcio.\nVásquez anotó un auténtico golazo para empatar el encuentro que finalmente acabó 1-1 al venir de at´ras e impactar un balón para ponerlo prácticamente en el ángulo tras un cobro de tiro de esquina.\nEl gol del mexicano llegó a los 50', y de esta forma, el conjunto genovés tenía un respiro importante en un encuentro vital para la permanencia, cuando la Serie A todavía está en sus primeras jornadas.\nJustamente la lucha por no descender a la Serie B hace que Johan sea un baluarte importante para el Genoa, aunque en esta ocasión, el capitán le hará falta a su equipo en el próximo partido dentro del futbol italiano, ya que fue expulsado cerca del final del compromiso.\nHéroe y villano, Johan Vásquez vio la tarjeta roja a los 86' y, de esta forma, tendrá que estar en la congeladora para el partido ante el Parma y en donde el Genoa tendrá que jugar prácticamente una Final en cada encuentro en el Calcio.\nDespués de cuatro partidos, los genoveses apenas sumaron su primer punto de la temporada para ir en la penúltima posición de la Serie A.",
-    "rss_title": "Johan Vásquez anota gol y es expulsado con el Genoa en la Serie A",
-    "rss_body": "Johan Vásquez, defensa mexicano del Genoa, vivió las dos caras de la moneda con su equipo en la Serie A de Italia en partido ante el Frosinone dentro del Calcio.\nVásquez anotó un auténtico golazo para empatar el encuentro que finalmente acabó 1-1 al venir de at´ras e impactar un balón para ponerlo prácticamente en el ángulo tras un cobro de tiro de esquina.\nEl gol del mexicano llegó a los 50', y de esta forma, el conjunto genovés tenía un respiro importante en un encuentro vital para la permanencia, cuando la Serie A todavía está en sus primeras jornadas.\nJustamente la lucha por no descender a la Serie B hace que Johan sea un baluarte importante para el Genoa, aunque en esta ocasión, el capitán le hará falta a su equipo en el próximo partido dentro del futbol italiano, ya que fue expulsado cerca del final del compromiso.\nHéroe y villano, Johan Vásquez vio la tarjeta roja a los 86' y, de esta forma, tendrá que estar en la congeladora para el partido ante el Parma y en donde el Genoa tendrá que jugar prácticamente una Final en cada encuentro en el Calcio.\nDespués de cuatro partidos, los genoveses apenas sumaron su primer punto de la temporada para ir en la penúltima posición de la Serie A.",
-    "translated_to": "es",
-    "translation_status": "fallback_original"
-  },
-  {
     "id": "32b63892158460cf93f0",
     "title": "Raúl Jiménez da especial bienvenida a Santiago Bueno al América",
     "source": "globalmedia.mx",
@@ -1919,6 +1892,49 @@
       }
     ],
     "duplicate_versions_removed": 4
+  },
+  {
+    "id": "f2b4393ca632f588a16c",
+    "title": "Johan Vásquez anota y sale expulsado en empate del Genoa",
+    "source": "Reforma",
+    "author": "Rodrigo Goyeneche",
+    "url": "https://www.reforma.com/johan-vasquez-anota-y-sale-expulsado-en-empate-del-genoa/ar3274995",
+    "published_iso": "2026-09-12T15:14:16+00:00",
+    "published_rfc2822": "Sat, 12 Sep 2026 15:14:16 +0000",
+    "published_display": "2026-09-12 15:14 UTC",
+    "body": "El Genoa consiguió su primer punto de la campaña 2026-27 del Calcio al empatar 1-1 contra Frosinone en el Estadio Luigi Ferraris luego de un arranque de tres derrotas consecutivas.\nLos locales, a quienes les anularon un gol al 9', empezaron perdiendo con el tanto del georgiano Giorgi Kvernadze a los 14 minutos tras quitarse de encima a un defensa y definir ante la salida del arquero Justin Bijlow.\nEl Genoa no encontraba la forma de meterse al juego hasta que una mano señalada dentro del área por el VAR parecía ser la solución, pero Lorenzo Colombo desperdició el penalti justo antes de acabar el primer tiempo.\nJohan Vásquez apareció para empatar el juego ante Frosinone en casa. Crédito: Genoa CFC\nYa para el complemento, un tiro de esquina cobrado por Djibril Sow resultó en un remate de primera intención de Johan Vásquez para marcar su primer gol de la temporada y poner el empate al 50'.\nJohan, capitán del Genoa, se quitó su cinta y festejó con un grito de ¡Vamos! a los aficionados locales mientras se abrazaba con sus compañeros.\nDespués de eso, el mexicano vio su primer tarjeta amarilla al 66' y 20 minutos después, luego de un forcejeo con Seydou Fini, el árbitro le mostró la segunda amarilla y por ende, la roja ante la incredulidad de Vásquez.\nCon 10 hombres, el Genoa logró resistir el tramo final del juego y sacó el empate que todavía no lo saca del penúltimo lugar de la Serie A con apenas dos goles anotados y ocho en contra en cuatro partidos.\nA media semana, el Genoa jugará los Dieciseisavos de Final de la Copa Italia contra Süditrol en búsqueda de seguir avanzando en ese torneo y Johan tendrá que perderse el juego del domingo 20 de septiembre frente al Parma como visitante por la Fecha 5 de la Serie A.\nJohan Vásquez lleva ocho goles entre sus dos etapas como jugador del Genoa. Crédito: Genoa CFC",
+    "tracked_players": [
+      {
+        "name": "Johan Vásquez",
+        "club": "Genoa",
+        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "España / Español",
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-15T04:43:11.948243+00:00",
+    "original_title": "Johan Vásquez anota y sale expulsado en empate del Genoa",
+    "original_body": "El Genoa consiguió su primer punto de la campaña 2026-27 del Calcio al empatar 1-1 contra Frosinone en el Estadio Luigi Ferraris luego de un arranque de tres derrotas consecutivas.\nLos locales, a quienes les anularon un gol al 9', empezaron perdiendo con el tanto del georgiano Giorgi Kvernadze a los 14 minutos tras quitarse de encima a un defensa y definir ante la salida del arquero Justin Bijlow.\nEl Genoa no encontraba la forma de meterse al juego hasta que una mano señalada dentro del área por el VAR parecía ser la solución, pero Lorenzo Colombo desperdició el penalti justo antes de acabar el primer tiempo.\nJohan Vásquez apareció para empatar el juego ante Frosinone en casa. Crédito: Genoa CFC\nYa para el complemento, un tiro de esquina cobrado por Djibril Sow resultó en un remate de primera intención de Johan Vásquez para marcar su primer gol de la temporada y poner el empate al 50'.\nJohan, capitán del Genoa, se quitó su cinta y festejó con un grito de ¡Vamos! a los aficionados locales mientras se abrazaba con sus compañeros.\nDespués de eso, el mexicano vio su primer tarjeta amarilla al 66' y 20 minutos después, luego de un forcejeo con Seydou Fini, el árbitro le mostró la segunda amarilla y por ende, la roja ante la incredulidad de Vásquez.\nCon 10 hombres, el Genoa logró resistir el tramo final del juego y sacó el empate que todavía no lo saca del penúltimo lugar de la Serie A con apenas dos goles anotados y ocho en contra en cuatro partidos.\nA media semana, el Genoa jugará los Dieciseisavos de Final de la Copa Italia contra Süditrol en búsqueda de seguir avanzando en ese torneo y Johan tendrá que perderse el juego del domingo 20 de septiembre frente al Parma como visitante por la Fecha 5 de la Serie A.\nJohan Vásquez lleva ocho goles entre sus dos etapas como jugador del Genoa. Crédito: Genoa CFC",
+    "rss_title": "Johan Vásquez anota y sale expulsado en empate del Genoa",
+    "rss_body": "El Genoa consiguió su primer punto de la campaña 2026-27 del Calcio al empatar 1-1 contra Frosinone en el Estadio Luigi Ferraris luego de un arranque de tres derrotas consecutivas.\nLos locales, a quienes les anularon un gol al 9', empezaron perdiendo con el tanto del georgiano Giorgi Kvernadze a los 14 minutos tras quitarse de encima a un defensa y definir ante la salida del arquero Justin Bijlow.\nEl Genoa no encontraba la forma de meterse al juego hasta que una mano señalada dentro del área por el VAR parecía ser la solución, pero Lorenzo Colombo desperdició el penalti justo antes de acabar el primer tiempo.\nJohan Vásquez apareció para empatar el juego ante Frosinone en casa. Crédito: Genoa CFC\nYa para el complemento, un tiro de esquina cobrado por Djibril Sow resultó en un remate de primera intención de Johan Vásquez para marcar su primer gol de la temporada y poner el empate al 50'.\nJohan, capitán del Genoa, se quitó su cinta y festejó con un grito de ¡Vamos! a los aficionados locales mientras se abrazaba con sus compañeros.\nDespués de eso, el mexicano vio su primer tarjeta amarilla al 66' y 20 minutos después, luego de un forcejeo con Seydou Fini, el árbitro le mostró la segunda amarilla y por ende, la roja ante la incredulidad de Vásquez.\nCon 10 hombres, el Genoa logró resistir el tramo final del juego y sacó el empate que todavía no lo saca del penúltimo lugar de la Serie A con apenas dos goles anotados y ocho en contra en cuatro partidos.\nA media semana, el Genoa jugará los Dieciseisavos de Final de la Copa Italia contra Süditrol en búsqueda de seguir avanzando en ese torneo y Johan tendrá que perderse el juego del domingo 20 de septiembre frente al Parma como visitante por la Fecha 5 de la Serie A.\nJohan Vásquez lleva ocho goles entre sus dos etapas como jugador del Genoa. Crédito: Genoa CFC",
+    "translated_to": "es",
+    "translation_status": "fallback_original",
+    "alternate_sources": [
+      {
+        "title": "Johan Vásquez anota gol y es expulsado con el Genoa en la Serie A",
+        "source": "TUDN",
+        "url": "https://www.tudn.com/futbol/serie-a/johan-vasquez-anota-gol-y-es-expulsado-con-el-genoa-en-la-serie-a-ante-el-frosinone",
+        "published_iso": "2026-09-12T16:38:33+00:00",
+        "body_characters": 1206
+      }
+    ],
+    "duplicate_versions_removed": 1
   },
   {
     "id": "1df0a6b27c3076d344c5",
