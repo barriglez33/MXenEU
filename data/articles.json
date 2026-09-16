@@ -1,5 +1,37 @@
 [
   {
+    "id": "ab83f298e95424ae21c5",
+    "title": "Armando González pone el empate para el Olympiacos",
+    "source": "88.9 Noticias | Noticias en Vivo | Información Que Sirve",
+    "author": "Espacio Deportivo",
+    "url": "https://889noticias.mx/espacio-deportivo/armando-gonzalez-pone-el-empate-para-el-olympiacos/",
+    "published_iso": "2026-09-16T19:59:13+00:00",
+    "published_rfc2822": "Wed, 16 Sep 2026 19:59:13 +0000",
+    "published_display": "2026-09-16 19:59 UTC",
+    "body": "Armando González, delantero mexicano sigue aproechando las oportunidades que le da su entrenador, Imanol Alguacil con el Olympiacos para seguir haciendo goles.\nAl momento, en el medio tiempo del partido entre el equipo griego en contra del Jagiellonia Białystok en la Europa League, el mexicano ya es goleador en todas las competencias que ha jugado en Europa.\nAl minuto 43, tras un tiro de esquina, en una jugada que refleja su olfato goleador, Armando González pone el 1-1, marcando así su cuarto gol en su corta aventura europea.\nPor José Ignacio Olvera Núñez e imagen de X: @AllFutbolMX\n🚨🤯 BREAKING: HORMIGA GONZALEZ SCORES ON HIS UEFA EUROPA LEAGUE DEBUT! 🇬🇷 pic.twitter.com/vyhDzW2x5Y\n— All Fútbol MX 🇲🇽 (@AllFutbolMX) September 16, 2026",
+    "tracked_players": [
+      {
+        "name": "Armando González",
+        "club": "Olympiacos",
+        "group": "Italia, Rusia, Grecia, Dinamarca y Bélgica"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-16T20:44:51.787464+00:00",
+    "original_title": "Armando González pone el empate para el Olympiacos",
+    "original_body": "Armando González, delantero mexicano sigue aproechando las oportunidades que le da su entrenador, Imanol Alguacil con el Olympiacos para seguir haciendo goles.\nAl momento, en el medio tiempo del partido entre el equipo griego en contra del Jagiellonia Białystok en la Europa League, el mexicano ya es goleador en todas las competencias que ha jugado en Europa.\nAl minuto 43, tras un tiro de esquina, en una jugada que refleja su olfato goleador, Armando González pone el 1-1, marcando así su cuarto gol en su corta aventura europea.\nPor José Ignacio Olvera Núñez e imagen de X: @AllFutbolMX\n🚨🤯 BREAKING: HORMIGA GONZALEZ SCORES ON HIS UEFA EUROPA LEAGUE DEBUT! 🇬🇷 pic.twitter.com/vyhDzW2x5Y\n— All Fútbol MX 🇲🇽 (@AllFutbolMX) September 16, 2026",
+    "rss_title": "Armando González pone el empate para el Olympiacos",
+    "rss_body": "Armando González, delantero mexicano sigue aproechando las oportunidades que le da su entrenador, Imanol Alguacil con el Olympiacos para seguir haciendo goles.\nAl momento, en el medio tiempo del partido entre el equipo griego en contra del Jagiellonia Białystok en la Europa League, el mexicano ya es goleador en todas las competencias que ha jugado en Europa.\nAl minuto 43, tras un tiro de esquina, en una jugada que refleja su olfato goleador, Armando González pone el 1-1, marcando así su cuarto gol en su corta aventura europea.\nPor José Ignacio Olvera Núñez e imagen de X: @AllFutbolMX\n🚨🤯 BREAKING: HORMIGA GONZALEZ SCORES ON HIS UEFA EUROPA LEAGUE DEBUT! 🇬🇷 pic.twitter.com/vyhDzW2x5Y\n— All Fútbol MX 🇲🇽 (@AllFutbolMX) September 16, 2026",
+    "translated_to": "es",
+    "translation_status": "fallback_original"
+  },
+  {
     "id": "6b5144d8c5b02e1a0b71",
     "title": "Mateo Chávez supera las preocupaciones y vuelve a la cancha como titular en Europa League",
     "source": "Rebaño Pasión",
@@ -138,9 +170,16 @@
         "url": "https://amp.marca.com/mx/futbol/mexicanos-mundo/2026/09/16/ver-sunderland-vs-az-alkmaar-horario-canal-tv-mateo-chavez-europa-league.html",
         "published_iso": "2026-09-16T15:26:24+00:00",
         "body_characters": 3105
+      },
+      {
+        "title": "Sunderland vs AZ Alkmaar: dónde ver Mateo Chávez Europa League",
+        "source": "Telediario",
+        "url": "https://amp.telediario.mx/deportes/futbol-internacional/sunderland-vs-az-alkmaar-donde-ver-mateo-chavez-europa-league",
+        "published_iso": "2026-09-16T18:18:00+00:00",
+        "body_characters": 3711
       }
     ],
-    "duplicate_versions_removed": 4
+    "duplicate_versions_removed": 5
   },
   {
     "id": "b467730a997e77b1a92c",
@@ -161,7 +200,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "United States / English"
+      "United States / English",
+      "United Kingdom / English"
     ],
     "discovery_sources": [
       "Google News"
