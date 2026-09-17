@@ -1115,7 +1115,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "España / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -1141,9 +1142,16 @@
         "url": "https://www.eluniversal.com.mx/deportes/johan-vasquez-vuelve-a-meter-gol-en-la-clasificacion-del-genoa-a-octavos-de-final-de-copa-italia/",
         "published_iso": "2026-09-15T22:36:10+00:00",
         "body_characters": 1529
+      },
+      {
+        "title": "Gol de Johan Vásquez pone al Genoa en octavos de final en Copa Italiana",
+        "source": "gradanorte.mx",
+        "url": "https://gradanorte.mx/gol-de-johan-vasquez-pone-al-genoa-en-octavos-de-final-en-copa-italiana/",
+        "published_iso": "2026-09-16T20:59:57+00:00",
+        "body_characters": 2095
       }
     ],
-    "duplicate_versions_removed": 2
+    "duplicate_versions_removed": 3
   },
   {
     "id": "c0da1bad800062385481",
