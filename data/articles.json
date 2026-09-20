@@ -70,7 +70,8 @@
     ],
     "source_languages": [],
     "source_countries": [
-      "México / Español"
+      "México / Español",
+      "España / Español"
     ],
     "discovery_sources": [
       "Google News"
@@ -81,7 +82,17 @@
     "rss_title": "Mateo Chávez y AZ Alkmaar siguen en la cima de la Eredivisie",
     "rss_body": "Mateo Chávez y el AZ Alkmaar mantienen paso triunfal en la Eredivisie. El lateral mexicano volvió a disputar los 90 minutos en la victoria 1-0 sobre el Telstar, correspondiente a la Jornada 7, resultado con el que su equipo llegó a 19 puntos y se mantiene en lo más alto de la clasificación.\nChávez, consolidado como titular por la banda izquierda, tuvo nuevamente una participación importante. De sus botines comenzó la acción que terminó en el único gol del encuentro al minuto 19. El mexicano se incorporó al ataque y dejó el balón para Valdemar Byskov, quien encontró dentro del área a Mexx Meerdink. El delantero definió de zurda para poner el 1-0.\nEn la segunda mitad, AZ buscó ampliar la diferencia. Kees Smit encontró la red al 55’, pero el VAR anuló la anotación por una mano previa de Meerdink.\nChávez también estuvo cerca de marcar. Al minuto 76 recibió dentro del área y sacó un disparo de zurda que fue detenido por el guardameta del Telstar. Más tarde volvió a aparecer con un cabezazo que terminó por encima del arco.\nAZ Alkmaar conservó la ventaja para sumar otra victoria y continuar en la cima de la Eredivisie.\nRAÚL JIMÉNEZ AUSENTE POR LESIÓN EN TRIUNFO DEL WOLVERHAMPTON \nEl Wolverhampton consiguió una importante victoria por 1-0 sobre el West Bromwich en la Jornada 8 Championship, aunque lo hizo sin la presencia del delantero mexicano Raúl Jiménez, quien no fue convocado debido a una molestia en la rodilla.\nJiménez arrastra el problema físico desde el partido ante el Everton por la Carabao Cup, encuentro en el que tuvo que abandonar el terreno de juego durante la primera mitad.\nLa lesión también provocó que el atacante quedara fuera de la primera convocatoria de Rafael Márquez con la Selección Mexicana.\nPese a la ausencia del mexicano, los Wolves sumaron tres puntos y ascendieron al cuarto lugar.",
     "translated_to": "es",
-    "translation_status": "fallback_original"
+    "translation_status": "fallback_original",
+    "alternate_sources": [
+      {
+        "title": "Mateo Chávez es titular en AZ Alkmaar y se quedan con la victoria en la Eredivisie",
+        "source": "MARCA",
+        "url": "https://www.marca.com/mx/futbol/mexicanos-mundo/2026/09/20/mateo-chavez-titular-az-alkmaar-quedan-victoria-eredivis-video.html",
+        "published_iso": "2026-09-20T21:16:43+00:00",
+        "body_characters": 328
+      }
+    ],
+    "duplicate_versions_removed": 1
   },
   {
     "id": "4783acdf0284a072ad24",
