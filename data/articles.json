@@ -197,6 +197,70 @@
     "translation_status": "fallback_original"
   },
   {
+    "id": "010e5cbb803e6c608949",
+    "title": "Obed Vargas atiende a los aficionados de la Selección Mexicana en su llegada a la CDMX",
+    "source": "MARCA",
+    "author": "Ruben Morales",
+    "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/09/22/obed-vargas-atiende-aficionados-seleccion-mexicana-llegada-cdmx-video.html",
+    "published_iso": "2026-09-21T19:07:00+00:00",
+    "published_rfc2822": "Mon, 21 Sep 2026 19:07:00 +0000",
+    "published_display": "2026-09-21 19:07 UTC",
+    "body": "Obed Vargas atiende a los aficionados de la Selección Mexicana en su llegada a la CDMX\nRUBÉN MORALES (HUDDLE)\nA su llegada a la Ciudad de México, Obed Vargas se tomó unos minutos para convivir con los seguidores del Tri. El mediocampista atendió a los aficionados, firmó autógrafos y dejó un momento especial antes de incorporarse a la concentración de la Selección Mexicana.",
+    "tracked_players": [
+      {
+        "name": "Obed Vargas",
+        "club": "Atlético de Madrid",
+        "group": "España"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-22T03:31:57.224027+00:00",
+    "original_title": "Obed Vargas atiende a los aficionados de la Selección Mexicana en su llegada a la CDMX",
+    "original_body": "Obed Vargas atiende a los aficionados de la Selección Mexicana en su llegada a la CDMX\nRUBÉN MORALES (HUDDLE)\nA su llegada a la Ciudad de México, Obed Vargas se tomó unos minutos para convivir con los seguidores del Tri. El mediocampista atendió a los aficionados, firmó autógrafos y dejó un momento especial antes de incorporarse a la concentración de la Selección Mexicana.",
+    "rss_title": "Obed Vargas atiende a los aficionados de la Selección Mexicana en su llegada a la CDMX",
+    "rss_body": "Obed Vargas atiende a los aficionados de la Selección Mexicana en su llegada a la CDMX\nRUBÉN MORALES (HUDDLE)\nA su llegada a la Ciudad de México, Obed Vargas se tomó unos minutos para convivir con los seguidores del Tri. El mediocampista atendió a los aficionados, firmó autógrafos y dejó un momento especial antes de incorporarse a la concentración de la Selección Mexicana.",
+    "translated_to": "es",
+    "translation_status": "fallback_original"
+  },
+  {
+    "id": "1d30eee9a79d7be98430",
+    "title": "Mateo Chávez listo para reportar con Rafa Márquez y la Selección Mexicana; así arriba a la CDMX",
+    "source": "MARCA",
+    "author": "Jose Pablo Mencos",
+    "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/09/22/mateo-chavez-listo-reportar-rafa-marquez-seleccion-mexicana-asi-cdmx-video.html",
+    "published_iso": "2026-09-21T18:30:00+00:00",
+    "published_rfc2822": "Mon, 21 Sep 2026 18:30:00 +0000",
+    "published_display": "2026-09-21 18:30 UTC",
+    "body": "Mateo Chávez listo para reportar con Rafa Márquez y la Selección Mexicana; así arriba a la CDMX\nJOSE PABLO MENCOS (HUDDLE)\nEl joven futbolista mexicano y actual jugador del AZ Alkmaar de la Eredevisie, llegó a la capital mexicana y atendió a sus aficionados, regaló firmas y fotos antes de unirse a la concentración del Tri.",
+    "tracked_players": [
+      {
+        "name": "Mateo Chávez",
+        "club": "AZ Alkmaar",
+        "group": "Portugal y Países Bajos"
+      }
+    ],
+    "source_languages": [],
+    "source_countries": [
+      "México / Español"
+    ],
+    "discovery_sources": [
+      "Google News"
+    ],
+    "collected_iso": "2026-09-22T03:40:17.156371+00:00",
+    "original_title": "Mateo Chávez listo para reportar con Rafa Márquez y la Selección Mexicana; así arriba a la CDMX",
+    "original_body": "Mateo Chávez listo para reportar con Rafa Márquez y la Selección Mexicana; así arriba a la CDMX\nJOSE PABLO MENCOS (HUDDLE)\nEl joven futbolista mexicano y actual jugador del AZ Alkmaar de la Eredevisie, llegó a la capital mexicana y atendió a sus aficionados, regaló firmas y fotos antes de unirse a la concentración del Tri.",
+    "rss_title": "Mateo Chávez listo para reportar con Rafa Márquez y la Selección Mexicana; así arriba a la CDMX",
+    "rss_body": "Mateo Chávez listo para reportar con Rafa Márquez y la Selección Mexicana; así arriba a la CDMX\nJOSE PABLO MENCOS (HUDDLE)\nEl joven futbolista mexicano y actual jugador del AZ Alkmaar de la Eredevisie, llegó a la capital mexicana y atendió a sus aficionados, regaló firmas y fotos antes de unirse a la concentración del Tri.",
+    "translated_to": "es",
+    "translation_status": "fallback_original"
+  },
+  {
     "id": "bcefa8e04629df7987d9",
     "title": "Santiago Giménez se queda en la banca en la victoria del Porto sobre Benfica en la Primeira Liga",
     "source": "Diario de Morelos",
