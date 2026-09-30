@@ -108,15 +108,18 @@
     }
   ],
   "settings": {
-    "max_age_hours": 72,
-    "gdelt_results_per_player": 25,
+    "max_age_hours": 6,
+    "gdelt_results_per_player": 15,
     "google_results_per_edition": 5,
     "max_stored_articles": 2000,
     "max_feed_items": 250,
     "minimum_body_characters": 250,
     "delay_between_articles_seconds": 0.8,
     "use_gdelt": true,
-    "use_google_news": true
+    "use_google_news": true,
+    "google_rss_entries_to_inspect": 25,
+    "max_fresh_google_articles_per_search": 6,
+    "max_fresh_gdelt_articles_per_search": 6
   },
   "google_news_editions": [
     {
@@ -165,15 +168,10 @@
   },
   "deduplication": {
     "enabled": true,
-    "max_hours_apart": 48,
-    "title_similarity_threshold": 0.72,
-    "title_token_overlap_threshold": 0.58,
-    "body_lead_similarity_threshold": 0.66,
+    "max_hours_apart": 24,
+    "title_similarity_threshold": 0.8,
+    "title_token_overlap_threshold": 0.68,
+    "body_lead_similarity_threshold": 0.75,
     "body_lead_characters": 1600
-  },
-  "relevance_filter": {
-    "enabled": true,
-    "context_window_characters": 500,
-    "description": "Requires the player name to appear with football context or the configured club; prevents same-name false positives such as Senator Alex Padilla."
   }
 }

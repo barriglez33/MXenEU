@@ -59,36 +59,9 @@ def slug(text):
     return re.sub(r"[^a-z0-9]+", "-", normalize(text)).strip("-")
 
 
-FOOTBALL_QUERY_TERMS = [
-    "football", "soccer", "futbol", "fútbol", "futbolista", "footballer",
-    "futebol", "calcio", "voetbal", "portero", "goalkeeper", "delantero",
-    "striker", "midfielder", "defender", "UEFA"
-]
-
-FOOTBALL_CONTEXT_TERMS = {
-    "football", "soccer", "futbol", "fútbol", "futbolista", "footballer",
-    "futebol", "calcio", "voetbal", "portero", "goalkeeper", "arquero",
-    "delantero", "striker", "mediocampista", "midfielder", "defensa",
-    "defender", "extremo", "winger", "gol", "goal", "goles", "goals",
-    "partido", "match", "liga", "league", "champions", "uefa", "europa league",
-    "conference league", "fichaje", "transfer", "traspaso", "temporada", "season",
-    "estadio", "stadium", "cancha", "balon", "balón", "seleccion", "selección",
-    "national team", "entrenador", "coach", "alineacion", "alineación", "lineup"
-}
-
-
-def player_query(player):
-    name = player["name"] if isinstance(player, dict) else str(player)
+def player_query(name):
     quoted = [f'"{x}"' for x in aliases(name)]
-    name_part = quoted[0] if len(quoted) == 1 else "(" + " OR ".join(quoted) + ")"
-
-    # Adding football terms greatly reduces collisions with unrelated people
-    # who happen to have the same name (for example Senator Alex Padilla).
-    context = " OR ".join(f'"{term}"' if " " in term else term for term in FOOTBALL_QUERY_TERMS)
-    club = (player.get("club") or "").strip() if isinstance(player, dict) else ""
-    if club:
-        context = f'"{club}" OR ' + context
-    return f'{name_part} ({context})'
+    return quoted[0] if len(quoted) == 1 else "(" + " OR ".join(quoted) + ")"
 
 
 def clean_url(url):
@@ -111,15 +84,6 @@ def domain(url):
         return host[4:] if host.startswith("www.") else host
     except Exception:
         return ""
-
-
-def source_from_url(url):
-    host = domain(url)
-    if not host:
-        return ""
-    parts = host.split(".")
-    label = parts[-2] if len(parts) >= 2 else parts[0]
-    return label.replace("-", " ").replace("_", " ").title()
 
 
 def article_id(url):
@@ -149,39 +113,59 @@ def feed_date(entry):
     return datetime.now(timezone.utc)
 
 
-def discover_gdelt(player, config):
-    if not config["settings"].get("use_gdelt", True):
+def discover_gdelt(player, config, known_urls=None):
+    if not config["settings"].get("use_gdelt",True):
         return []
-    params = {
-        "query": player_query(player),
-        "mode": "artlist",
-        "maxrecords": config["settings"]["gdelt_results_per_player"],
-        "timespan": f'{config["settings"]["max_age_hours"]}h',
-        "sort": "datedesc",
-        "format": "json",
-    }
-    try:
-        response = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=params, timeout=30, headers={"User-Agent": "MexicanosEnEuropa/1.0"})
-        response.raise_for_status()
-        payload = response.json()
-    except Exception as exc:
-        print("  GDELT error:", exc)
-        return []
-    out = []
-    for item in payload.get("articles", []):
-        url = clean_url(item.get("url", ""))
-        if url:
-            out.append({
-                "url": url,
-                "title": item.get("title", "") or "",
-                "source": item.get("domain", "") or domain(url),
-                "published": parse_gdelt_date(item.get("seendate")),
-                "language": item.get("language", "") or "",
-                "country": item.get("sourcecountry", "") or "",
-                "via": "GDELT",
-            })
-    return out
 
+    known_urls=known_urls or set()
+    params={
+        "query":player_query(player["name"]),
+        "mode":"artlist",
+        "maxrecords":config["settings"].get("gdelt_results_per_player",15),
+        "timespan":f'{config["settings"]["max_age_hours"]}h',
+        "sort":"datedesc",
+        "format":"json",
+    }
+
+    try:
+        response=requests.get(
+            "https://api.gdeltproject.org/api/v2/doc/doc",
+            params=params,
+            timeout=30,
+            headers={"User-Agent":"MexicanosEnEuropa/2.0"}
+        )
+        response.raise_for_status()
+        payload=response.json()
+    except Exception as exc:
+        print("  GDELT error:",exc)
+        return []
+
+    cutoff=datetime.now(timezone.utc)-timedelta(hours=float(config["settings"]["max_age_hours"]))
+    limit=int(config["settings"].get("max_fresh_gdelt_articles_per_search",6))
+    out=[]
+
+    for item in payload.get("articles",[]):
+        url=clean_url(item.get("url",""))
+        if not url or url in known_urls:
+            continue
+        published=parse_gdelt_date(item.get("seendate"))
+        if published<cutoff:
+            continue
+
+        out.append({
+            "url":url,
+            "title":item.get("title","") or "",
+            "source":item.get("domain","") or domain(url),
+            "published":published,
+            "language":item.get("language","") or "",
+            "country":item.get("sourcecountry","") or "",
+            "via":"GDELT",
+        })
+
+        if len(out)>=limit:
+            break
+
+    return out
 
 def google_feed_url(query, edition):
     return "https://news.google.com/rss/search?" + f"q={quote_plus(query)}&hl={quote_plus(edition['hl'])}&gl={quote_plus(edition['gl'])}&ceid={quote_plus(edition['ceid'])}"
@@ -199,35 +183,53 @@ def decode_google_url(url):
     return None
 
 
-def discover_google(player, config):
-    if not config["settings"].get("use_google_news", True):
+def discover_google(player, config, known_urls=None):
+    if not config["settings"].get("use_google_news",True):
         return []
-    out = []
-    query = player_query(player)
-    limit = config["settings"]["google_results_per_edition"]
+
+    known_urls=known_urls or set()
+    out=[]
+    query=player_query(player["name"])
+    cutoff=datetime.now(timezone.utc)-timedelta(hours=float(config["settings"]["max_age_hours"]))
+    inspect_limit=int(config["settings"].get("google_rss_entries_to_inspect",25))
+    fresh_limit=int(config["settings"].get("max_fresh_google_articles_per_search",6))
+
     for edition in config["google_news_editions"]:
-        feed = feedparser.parse(google_feed_url(query, edition))
-        for entry in list(getattr(feed, "entries", []))[:limit]:
-            url = decode_google_url(getattr(entry, "link", ""))
-            if not url:
+        if len(out)>=fresh_limit:
+            break
+
+        feed=feedparser.parse(google_feed_url(query,edition))
+
+        for entry in list(getattr(feed,"entries",[]))[:inspect_limit]:
+            if len(out)>=fresh_limit:
+                break
+
+            published=feed_date(entry)
+            if published<cutoff:
                 continue
-            source = ""
+
+            url=decode_google_url(getattr(entry,"link",""))
+            if not url or url in known_urls:
+                continue
+
+            source=""
             try:
-                if getattr(entry, "source", None):
-                    source = entry.source.get("title", "") or ""
+                if getattr(entry,"source",None):
+                    source=entry.source.get("title","") or ""
             except Exception:
                 pass
-            out.append({
-                "url": url,
-                "title": getattr(entry, "title", "") or "",
-                "source": source or domain(url),
-                "published": feed_date(entry),
-                "language": "",
-                "country": edition["label"],
-                "via": "Google News",
-            })
-    return out
 
+            out.append({
+                "url":url,
+                "title":getattr(entry,"title","") or "",
+                "source":source or domain(url),
+                "published":published,
+                "language":"",
+                "country":edition["label"],
+                "via":"Google News",
+            })
+
+    return out
 
 def extract_article(url):
     try:
@@ -252,87 +254,8 @@ def mentions(text, name):
     return any(normalize(alias) in text_n for alias in aliases(name))
 
 
-def contains_football_context(text):
-    text_n = normalize(text)
-    return any(normalize(term) in text_n for term in FOOTBALL_CONTEXT_TERMS)
-
-
-def football_context_near_name(text, name, window=500):
-    text_n = normalize(text)
-    for alias in aliases(name):
-        alias_n = normalize(alias)
-        start = 0
-        while True:
-            pos = text_n.find(alias_n, start)
-            if pos < 0:
-                break
-            left = max(0, pos - window)
-            right = min(len(text_n), pos + len(alias_n) + window)
-            if contains_football_context(text_n[left:right]):
-                return True
-            start = pos + max(1, len(alias_n))
-    return False
-
-
-def relevant_to_player(title, body, player, config=None):
-    name = player["name"]
-    title = title or ""
-    body = body or ""
-    combined = title + "\n" + body
-
-    if not mentions(combined, name):
-        return False
-
-    settings = (config or {}).get("relevance_filter", {})
-    if settings and not settings.get("enabled", True):
-        return True
-    window = int(settings.get("context_window_characters", 500)) if settings else 500
-
-    # Strongest signal: the player's club is actually mentioned.
-    club = (player.get("club") or "").strip()
-    if club and normalize(club) in normalize(combined):
-        return True
-
-    # If the name occurs close to football language, it is very likely the player.
-    if football_context_near_name(combined, name, window):
-        return True
-
-    # A name in the headline is accepted only when the article itself is clearly football-related.
-    if mentions(title, name) and contains_football_context(title + "\n" + body[:2500]):
-        return True
-
-    return False
-
-
-def detected_players(title, body, players, config=None):
-    return [
-        {"name": p["name"], "club": p["club"], "group": p["group"]}
-        for p in players
-        if relevant_to_player(title, body, p, config)
-    ]
-
-
-def remove_irrelevant_existing(articles, config):
-    players_by_name = {p["name"]: p for p in config["players"]}
-    kept = []
-    removed = 0
-    for article in articles:
-        title = article.get("original_title") or article.get("title", "")
-        body = article.get("original_body") or article.get("body", "")
-        valid_players = []
-        for tracked in article.get("tracked_players", []):
-            player = players_by_name.get(tracked.get("name"))
-            if player and relevant_to_player(title, body, player, config):
-                valid_players.append({"name": player["name"], "club": player["club"], "group": player["group"]})
-        if valid_players:
-            article["tracked_players"] = valid_players
-            kept.append(article)
-        else:
-            removed += 1
-            print("  Irrelevant stored article removed:", (title or "")[:90])
-    if removed:
-        print(f"Relevance cleanup: {removed} unrelated stored article(s) removed.")
-    return kept
+def detected_players(text, players):
+    return [{"name": p["name"], "club": p["club"], "group": p["group"]} for p in players if mentions(text, p["name"])]
 
 
 def merge_existing(article, player, candidate):
@@ -556,13 +479,18 @@ def rss_xml(items, title, description, site_url, max_items):
       <content:encoded>{cdata(body_html)}</content:encoded>
 {categories}
     </item>''')
+    sorted_items = sorted(items, key=lambda x: x.get("published_iso", ""), reverse=True)[:max_items]
+    if sorted_items:
+        build_date = sorted_items[0].get("published_rfc2822") or format_datetime(article_datetime(sorted_items[0]))
+    else:
+        build_date = "Thu, 01 Jan 1970 00:00:00 +0000"
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{cdata(title)}</title>
     <link>{html.escape(site_url)}</link>
     <description>{cdata(description)}</description>
-    <lastBuildDate>{format_datetime(datetime.now(timezone.utc))}</lastBuildDate>
+    <lastBuildDate>{build_date}</lastBuildDate>
 {chr(10).join(rows)}
   </channel>
 </rss>'''
@@ -590,7 +518,6 @@ def generate_outputs(articles, config):
 def main():
     config = load_config()
     articles = load_articles()
-    articles = remove_irrelevant_existing(articles, config)
     existing = {a.get("url"): a for a in articles if a.get("url")}
     cutoff = datetime.now(timezone.utc) - timedelta(hours=config["settings"]["max_age_hours"])
     new_count = 0
@@ -598,7 +525,8 @@ def main():
     print("Players:", len(config["players"]))
     for player in config["players"]:
         print(f'\nPLAYER: {player["name"]} — {player["club"]}')
-        candidates = discover_gdelt(player, config) + discover_google(player, config)
+        known_urls=set(existing.keys())
+        candidates = discover_gdelt(player, config, known_urls) + discover_google(player, config, known_urls)
         unique = {}
         for candidate in candidates:
             if candidate["published"] >= cutoff and candidate["url"] not in unique:
@@ -615,16 +543,12 @@ def main():
                 print("    Skipped: body unavailable/too short")
                 time.sleep(config["settings"]["delay_between_articles_seconds"])
                 continue
-            extracted_title = extracted.get("title") or candidate.get("title") or ""
-            if not relevant_to_player(extracted_title, extracted["body"], player, config):
-                print("    Skipped: matching name is not in football context")
+            combined = (extracted.get("title") or "") + "\n" + extracted["body"]
+            if not mentions(combined, player["name"]):
+                print("    Skipped: player name not in extracted page")
                 time.sleep(config["settings"]["delay_between_articles_seconds"])
                 continue
-            tracked = detected_players(extracted_title, extracted["body"], config["players"], config)
-            if not tracked:
-                print("    Skipped: no verified footballer match")
-                time.sleep(config["settings"]["delay_between_articles_seconds"])
-                continue
+            tracked = detected_players(combined, config["players"]) or [{"name": player["name"], "club": player["club"], "group": player["group"]}]
             pub = candidate["published"]
             article = {
                 "id": article_id(url), "title": extracted.get("title") or candidate.get("title") or url,
