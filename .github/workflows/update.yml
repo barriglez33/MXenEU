@@ -3,8 +3,7 @@ name: Update Mexicanos en Europa RSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 * * * *"
-
+    - cron: "7,37 * * * *"
 concurrency:
   group: mexicanos-en-europa-rss
   cancel-in-progress: false
