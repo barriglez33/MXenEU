@@ -1,12 +1,12 @@
-# Mexicanos en Europa — High Recall Update
+# Mexicanos En Europa — Freshness Update
 
-This project still scans all tracked players every run.
+This patch makes the feed more current while preserving the high-recall discovery model.
 
-Changes:
-- 6-hour rolling safety window
-- inspect up to 25 Google News RSS entries per player
-- process max 6 fresh unseen Google articles per player total
-- GDELT requests 15 results and processes max 6 fresh unseen candidates
-- smart deduplication tightened to a 24-hour window
+- Discovery window: **2 hours**
+- Hard publisher-date cutoff: **3 hours**, only when Trafilatura extracts a date with a real clock time
+- Google News still inspects up to **25 RSS entries** and processes at most **6 fresh unseen candidates** per search
+- Existing smart deduplication and history are preserved
+- GitHub Actions schedule: `7,37 * * * *`
+- `requirements.txt` includes the `selectolax<1.0` compatibility pin
 
-Replace `main.py`, `config.json`, and `README.md`.
+Date-only metadata such as `2026-10-07` is not rejected because it does not provide enough precision for a three-hour cutoff.

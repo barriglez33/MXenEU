@@ -231,6 +231,42 @@ def discover_google(player, config, known_urls=None):
 
     return out
 
+def parse_extracted_article_date(value):
+    """Parse only article dates that contain a usable time component."""
+    if not value:
+        return None
+    raw=str(value).strip()
+
+    # A date such as 2026-10-07 has no clock time, so it cannot safely be
+    # used for a 3-hour freshness cutoff. Let it pass instead of guessing.
+    if "T" not in raw and ":" not in raw:
+        return None
+
+    for candidate in (raw,raw.replace("Z","+00:00")):
+        try:
+            d=datetime.fromisoformat(candidate)
+            if d.tzinfo is None:
+                d=d.replace(tzinfo=timezone.utc)
+            return d.astimezone(timezone.utc)
+        except Exception:
+            pass
+
+    for fmt in ("%Y-%m-%d %H:%M:%S","%Y-%m-%d %H:%M","%Y/%m/%d %H:%M:%S","%Y/%m/%d %H:%M"):
+        try:
+            return datetime.strptime(raw,fmt).replace(tzinfo=timezone.utc)
+        except Exception:
+            pass
+    return None
+
+def actual_article_is_too_old(extracted,max_age_hours=3):
+    if not extracted:
+        return False
+    actual=extracted.get("article_date_dt")
+    if not actual:
+        return False
+    cutoff=datetime.now(timezone.utc)-timedelta(hours=float(max_age_hours))
+    return actual < cutoff
+
 def extract_article(url):
     try:
         downloaded = trafilatura.fetch_url(url)
@@ -243,11 +279,17 @@ def extract_article(url):
         body = (data.get("text") or "").strip()
         if not body:
             return None
-        return {"title": (data.get("title") or "").strip(), "author": (data.get("author") or "").strip(), "body": body}
+        raw_date=(data.get("date") or "").strip()
+        return {
+            "title": (data.get("title") or "").strip(),
+            "author": (data.get("author") or "").strip(),
+            "body": body,
+            "article_date":raw_date,
+            "article_date_dt":parse_extracted_article_date(raw_date),
+        }
     except Exception as exc:
         print("    Extract error:", exc)
         return None
-
 
 def mentions(text, name):
     text_n = normalize(text)
@@ -539,6 +581,9 @@ def main():
                 continue
             print("  Fetching:", candidate.get("title", "")[:90])
             extracted = extract_article(url)
+            if actual_article_is_too_old(extracted,config["settings"].get("max_extracted_article_age_hours",3)):
+                print("    Skipped: publisher article date is older than 3 hours")
+                continue
             if not extracted or len(extracted["body"]) < config["settings"]["minimum_body_characters"]:
                 print("    Skipped: body unavailable/too short")
                 time.sleep(config["settings"]["delay_between_articles_seconds"])
@@ -554,7 +599,7 @@ def main():
                 "id": article_id(url), "title": extracted.get("title") or candidate.get("title") or url,
                 "source": candidate.get("source") or domain(url), "author": extracted.get("author", ""), "url": url,
                 "published_iso": pub.isoformat(), "published_rfc2822": format_datetime(pub), "published_display": pub.strftime("%Y-%m-%d %H:%M UTC"),
-                "body": extracted["body"], "tracked_players": tracked,
+                "body": extracted["body"], "article_date": extracted.get("article_date", ""), "tracked_players": tracked,
                 "source_languages": [candidate["language"]] if candidate.get("language") else [],
                 "source_countries": [candidate["country"]] if candidate.get("country") else [],
                 "discovery_sources": [candidate["via"]], "collected_iso": datetime.now(timezone.utc).isoformat(),
